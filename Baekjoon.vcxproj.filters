@@ -9,5 +9,11 @@
     <ClCompile Include="Brute_Force\4673.cpp">
       <Filter>Brute_Force</Filter>
     </ClCompile>
+    <ClCompile Include="Brute_Force\1065.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="Brute_Force\2798.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
