@@ -15,5 +15,8 @@
     <ClCompile Include="Brute_Force\2798.cpp">
       <Filter>Brute_Force</Filter>
     </ClCompile>
+    <ClCompile Include="Brute_Force\12100.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
