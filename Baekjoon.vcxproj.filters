@@ -4,6 +4,9 @@
     <Filter Include="Brute_Force">
       <UniqueIdentifier>{dd9b071d-373c-4694-89a9-079aab9ec040}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Greedy">
+      <UniqueIdentifier>{ca7bed99-4716-4363-b8a7-ccda275efe89}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -17,6 +20,9 @@
     </ClCompile>
     <ClCompile Include="Brute_Force\12100.cpp">
       <Filter>Brute_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="2839.cpp">
+      <Filter>Greedy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
