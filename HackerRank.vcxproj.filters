@@ -26,5 +26,8 @@
     <ClCompile Include="StairCase.cpp">
       <Filter>소스 파일\WarmUp</Filter>
     </ClCompile>
+    <ClCompile Include="Mini-MaxSum.cpp">
+      <Filter>소스 파일\WarmUp</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
