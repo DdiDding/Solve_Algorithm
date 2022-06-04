@@ -1,3 +1,7 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
 /*
  * Complete the 'miniMaxSum' function below.
  *
@@ -14,6 +18,19 @@ void miniMaxSum(vector<int> arr) {
 		if (max < data) max = data;
 	}
 
-	cout << total - max << ' ';
 	cout << total - min;
+	cout << total - max << ' ';
+}
+
+void main()
+{
+	vector<int> arr(5,0);
+	for (int i = 0; i < 5; ++i)
+	{
+		cin >> arr[i];
+	}
+
+	miniMaxSum(arr);
+
+	return;
 }
