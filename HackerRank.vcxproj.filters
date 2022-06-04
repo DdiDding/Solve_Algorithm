@@ -17,5 +17,8 @@
     <ClCompile Include="WarmUp\CompareTheTriplets.cpp">
       <Filter>소스 파일\WarmUp</Filter>
     </ClCompile>
+    <ClCompile Include="WarmUp\AVeryBigSum.cpp">
+      <Filter>소스 파일\WarmUp</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
