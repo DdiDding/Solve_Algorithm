@@ -21,6 +21,6 @@
     <ClCompile Include="1023.cpp" />
     <ClCompile Include="1025.cpp" />
     <ClCompile Include="MainTemplate.cpp" />
-    <ClCompile Include="1026.cpp" />
+    <ClCompile Include="Practice.cpp" />
   </ItemGroup>
 </Project>

@@ -52,7 +52,7 @@
     <ClCompile Include="1025.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1026.cpp" />
+    <ClCompile Include="Practice.cpp" />
     <ClCompile Include="1038.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
