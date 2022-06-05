@@ -17,5 +17,10 @@
     <ClCompile Include="1021.cpp" />
     <ClCompile Include="1038.cpp" />
     <ClCompile Include="1045.cpp" />
+    <ClCompile Include="1008.cpp" />
+    <ClCompile Include="1023.cpp" />
+    <ClCompile Include="1025.cpp" />
+    <ClCompile Include="MainTemplate.cpp" />
+    <ClCompile Include="1026.cpp" />
   </ItemGroup>
 </Project>
