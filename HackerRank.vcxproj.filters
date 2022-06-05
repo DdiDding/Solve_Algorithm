@@ -35,5 +35,11 @@
     <ClCompile Include="Birthday Cake Candles.cpp">
       <Filter>소스 파일\WarmUp</Filter>
     </ClCompile>
+    <ClCompile Include="TimeConversion.cpp">
+      <Filter>소스 파일\WarmUp</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일\WarmUp</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
