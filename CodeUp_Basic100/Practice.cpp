@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
-	long long a;
-	scanf("%u", &a);
-	printf("%lli", ++a);
+	int64_t a;
+	scanf("%lld", &a);
+	printf("%lld", ++a);
 	return 0;
 }
