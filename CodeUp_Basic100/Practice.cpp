@@ -3,8 +3,9 @@
 using namespace std;
 int main()
 {
-	int a;
-	scanf("%d", &a);
-	printf("%d",a<<1);
+	int a,b;
+	scanf("%d %d", &a, &b);
+	
+	a != b ? cout << 1 : cout << 0;
 	return 0;
 }
