@@ -3,20 +3,14 @@
 using namespace std;
 int main()
 {
-	int a[3];
-	scanf("%d %d %d", &a[0], &a[1], &a[2]);
+myGoTo:
+	int a;
+	scanf("%d", &a);
 	
-	for (const auto & data : a)
-	{
-		if (data % 2 == 0)
-		{
-			cout << "even"<<endl;
-		}
-		else
-		{
-			cout << "odd" << endl;
-		}
-	}
-	
+	if (a == 0) return 0 ;
+
+	cout << a << endl;
+	goto myGoTo;
+
 	return 0;
 }
