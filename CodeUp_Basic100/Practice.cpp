@@ -3,8 +3,20 @@
 using namespace std;
 int main()
 {
-	char a, b;
-	scanf("%hhd %hhd", &a, &b);
-	a != 0 && b != 0 ? cout << 1 : cout << 0;
+	int a[3];
+	scanf("%d %d %d", &a[0], &a[1], &a[2]);
+	
+	for (const auto & data : a)
+	{
+		if (data % 2 == 0)
+		{
+			cout << "even"<<endl;
+		}
+		else
+		{
+			cout << "odd" << endl;
+		}
+	}
+	
 	return 0;
 }
