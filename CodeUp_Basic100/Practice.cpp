@@ -4,15 +4,18 @@ using namespace std;
 
 int main()
 {
-	long long int a;
-	int b, c, d;
-	scanf("%lld %d %d %d", &a, &b, &c, &d);
+	int n;
+	scanf("%d", &n);
 
-	for (int i = 1; i < d; ++i)
+	int min = 23;
+	for (int i = 0; i < n; ++i)
 	{
-		a *= b;
-		a += c;
+		int temp;
+		scanf("%d", &temp);
+
+		if (temp < min) min = temp;
 	}
-	cout << a;
+
+	printf("%d", min);
 	return 0;
 }
