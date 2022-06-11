@@ -1,22 +1,18 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
 int main()
 {
-	int r, g, b, result = 0;
-	scanf("%d %d %d", &r, &g, &b);
+	long long int a;
+	int b, c, d;
+	scanf("%lld %d %d %d", &a, &b, &c, &d);
 
-	for (int i = 0; i < r; ++i)
+	for (int i = 1; i < d; ++i)
 	{
-		for (int j = 0; j < g; ++j)
-		{
-			for (int k = 0; k < b; ++k)
-			{
-				printf("%d %d %d\n", i, j, k);
-				++result;
-			}
-		}
+		a *= b;
+		a += c;
 	}
-	cout << result;
+	cout << a;
 	return 0;
 }
