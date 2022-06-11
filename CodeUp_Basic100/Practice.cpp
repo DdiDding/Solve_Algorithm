@@ -3,13 +3,20 @@
 using namespace std;
 int main()
 {
-	int a;
-	scanf("%X", &a);
+	int r, g, b, result = 0;
+	scanf("%d %d %d", &r, &g, &b);
 
-	for (int i = 1; i <= 15; ++i)
+	for (int i = 0; i < r; ++i)
 	{
-		printf("%X*%X=%X\n", a, i, a * i);
+		for (int j = 0; j < g; ++j)
+		{
+			for (int k = 0; k < b; ++k)
+			{
+				printf("%d %d %d\n", i, j, k);
+				++result;
+			}
+		}
 	}
-
+	cout << result;
 	return 0;
 }
