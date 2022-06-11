@@ -3,13 +3,13 @@
 using namespace std;
 int main()
 {
-	int b;
+	int a;
+	scanf("%X", &a);
 
-	while (true)
+	for (int i = 1; i <= 15; ++i)
 	{
-		scanf("%d", &b);
-		if (b == 0) return 0;
-		cout << b << endl;
+		printf("%X*%X=%X\n", a, i, a * i);
 	}
+
 	return 0;
 }
