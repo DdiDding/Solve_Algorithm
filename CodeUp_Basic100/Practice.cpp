@@ -3,14 +3,13 @@
 using namespace std;
 int main()
 {
-myGoTo:
-	int a;
-	scanf("%d", &a);
-	
-	if (a == 0) return 0 ;
+	int b;
 
-	cout << a << endl;
-	goto myGoTo;
-
+	while (true)
+	{
+		scanf("%d", &b);
+		if (b == 0) return 0;
+		cout << b << endl;
+	}
 	return 0;
 }
