@@ -4,18 +4,28 @@ using namespace std;
 
 int main()
 {
-	int n;
-	scanf("%d", &n);
+	int plane[19][19] = { 0 };
+	int many;
+	scanf("%d", &many);
 
-	int min = 23;
-	for (int i = 0; i < n; ++i)
+	for (int i = 0; i < many; ++i)
 	{
-		int temp;
-		scanf("%d", &temp);
+		int row = 0, column = 0;
+		scanf("%d %d", &row, &column);
 
-		if (temp < min) min = temp;
+		plane[row-1][column - 1] = 1;
 	}
 
-	printf("%d", min);
+
+	for (int i = 0; i < 19; ++i)
+	{
+		for (int j = 0; j < 19; ++j)
+		{
+			printf("%d", plane[i][j]);
+			if(j != 19) printf(" ");
+		}
+		printf("\n");
+	}
+
 	return 0;
 }
