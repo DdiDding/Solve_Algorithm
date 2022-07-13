@@ -2,42 +2,60 @@
 #include <string>
 using namespace std;
 
+struct Position
+{
+	Position()
+	{
+		x = 1;
+		y = 1;
+	}
+
+	int x;
+	int y;
+};
 
 int main()
 {
-	int row = 0, column = 0;
-	scanf("%d %d", &column, &row);
-	int plane[101][101] = { 0 };
+	Position pos;
+	bool bIsMove = false;
 
-	int stickCnt = 0;
-	scanf("%d", &stickCnt);
-
-	for (int i = 0; i < stickCnt; ++i)
+	int map[10][10] = { 0 };
+	for (int i = 0; i < 10; ++i)
 	{
-		int length = 0, direction = 0, x = 0, y = 0;
-		scanf("%d %d %d %d", &length, &direction, &y, &x);
-		x -= 1; y -= 1;
-
-		for (int j = 0; j < length; ++j)
+		for (int j = 0; j < 10; ++j)
 		{
-			if (direction == 0)
-			{
-				plane[y][x + j] = 1;
-			}
-			else
-			{
-				plane[y + j][x] = 1;
-			}
+			scanf("%d", &(map[i][j]));
 		}
 	}
 
 
-	for (int i = 0; i < column; ++i)
+	while (map[pos.y][pos.x] != 2)
 	{
-		for (int j = 0; j < row; ++j)
+		map[pos.y][pos.x] = 9;
+
+		//Move Left
+		if (map[pos.y][pos.x + 1] != 1)
+		{///장애물이 아니라면
+			++pos.x;
+		}
+		//Move Down
+		else if (map[pos.y + 1][pos.x] != 1)
+		{///아래로
+			++pos.y;
+		}
+		else if (map[pos.y + 1][pos.x] == 1 && map[pos.y][pos.x + 1] == 1)
 		{
-			printf("%d", plane[i][j]);
-			if(j != row) printf(" ");
+			break;
+		}
+	}
+	map[pos.y][pos.x] = 9;
+
+	for (int i = 0; i < 10; ++i)
+	{
+		for (int j = 0; j < 10; ++j)
+		{
+			printf("%d", map[i][j]);
+			if (j != 9) printf(" ");
 		}
 		printf("\n");
 	}
