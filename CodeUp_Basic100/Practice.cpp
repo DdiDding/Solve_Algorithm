@@ -2,18 +2,42 @@
 #include <string>
 using namespace std;
 
+static const int LENGTH = 19;
+
 int main()
 {
-	int plane[19][19] = { 0 };
-	int many;
-	scanf("%d", &many);
+	int plane[LENGTH][LENGTH] = { 0 };
 
-	for (int i = 0; i < many; ++i)
+	for (int i = 0; i < LENGTH; ++i)
+	{
+		for (int j = 0; j < LENGTH; ++j)
+		{
+			int color = 0;
+			scanf("%d", &color);
+
+			plane[i][j] = color;
+		}
+	}
+
+	int reverseCnt = 0;
+	scanf("%d", &reverseCnt);
+
+	for (int i = 0; i < reverseCnt; ++i)
 	{
 		int row = 0, column = 0;
 		scanf("%d %d", &row, &column);
+		row -= 1; column -= 1;
 
-		plane[row-1][column - 1] = 1;
+		//row 계산
+		for (int j = 0; j < LENGTH; ++j)
+		{
+			plane[row][j] = !plane[row][j];
+		}
+		//column 계산
+		for (int j = 0; j < LENGTH; ++j)
+		{
+			plane[j][column] = !plane[j][column];
+		}
 	}
 
 
