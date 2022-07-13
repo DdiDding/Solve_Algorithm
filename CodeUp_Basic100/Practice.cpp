@@ -2,51 +2,42 @@
 #include <string>
 using namespace std;
 
-static const int LENGTH = 19;
 
 int main()
 {
-	int plane[LENGTH][LENGTH] = { 0 };
+	int row = 0, column = 0;
+	scanf("%d %d", &column, &row);
+	int plane[101][101] = { 0 };
 
-	for (int i = 0; i < LENGTH; ++i)
+	int stickCnt = 0;
+	scanf("%d", &stickCnt);
+
+	for (int i = 0; i < stickCnt; ++i)
 	{
-		for (int j = 0; j < LENGTH; ++j)
+		int length = 0, direction = 0, x = 0, y = 0;
+		scanf("%d %d %d %d", &length, &direction, &y, &x);
+		x -= 1; y -= 1;
+
+		for (int j = 0; j < length; ++j)
 		{
-			int color = 0;
-			scanf("%d", &color);
-
-			plane[i][j] = color;
-		}
-	}
-
-	int reverseCnt = 0;
-	scanf("%d", &reverseCnt);
-
-	for (int i = 0; i < reverseCnt; ++i)
-	{
-		int row = 0, column = 0;
-		scanf("%d %d", &row, &column);
-		row -= 1; column -= 1;
-
-		//row 계산
-		for (int j = 0; j < LENGTH; ++j)
-		{
-			plane[row][j] = !plane[row][j];
-		}
-		//column 계산
-		for (int j = 0; j < LENGTH; ++j)
-		{
-			plane[j][column] = !plane[j][column];
+			if (direction == 0)
+			{
+				plane[y][x + j] = 1;
+			}
+			else
+			{
+				plane[y + j][x] = 1;
+			}
 		}
 	}
 
 
-	for (int i = 0; i < 19; ++i)
+	for (int i = 0; i < column; ++i)
 	{
-		for (int j = 0; j < 19; ++j)
+		for (int j = 0; j < row; ++j)
 		{
 			printf("%d", plane[i][j]);
-			if(j != 19) printf(" ");
+			if(j != row) printf(" ");
 		}
 		printf("\n");
 	}
