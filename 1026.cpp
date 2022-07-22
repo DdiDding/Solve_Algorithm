@@ -4,6 +4,9 @@
 #include<vector>
 using namespace std;
 
+//결과인 최소 값을 가지려면 큰값 * 작은값 의 연속이어야 하므로 오름차순A, 내림차순B를 곱하면 된다.
+
+
 int main()
 {
 	int N, result = 0;
