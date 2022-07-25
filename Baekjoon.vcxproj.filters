@@ -48,5 +48,11 @@
     <ClCompile Include="10162.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
+    <ClCompile Include="1789.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="13305.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
