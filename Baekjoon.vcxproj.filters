@@ -7,6 +7,9 @@
     <Filter Include="Greedy">
       <UniqueIdentifier>{ca7bed99-4716-4363-b8a7-ccda275efe89}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Sort">
+      <UniqueIdentifier>{4433b8c2-eb99-4994-aaf6-dd1b2495374f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -21,32 +24,47 @@
     <ClCompile Include="Brute_Force\12100.cpp">
       <Filter>Brute_Force</Filter>
     </ClCompile>
-    <ClCompile Include="2839.cpp">
+    <ClCompile Include="Greedy\1026.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="11399.cpp">
+    <ClCompile Include="Greedy\1541.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="11047.cpp">
+    <ClCompile Include="Greedy\1789.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="1931.cpp">
+    <ClCompile Include="Greedy\1931.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="1026.cpp">
+    <ClCompile Include="Greedy\2217.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="1541.cpp">
+    <ClCompile Include="Greedy\2839.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="5585.cpp">
+    <ClCompile Include="Greedy\5585.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="2217.cpp">
+    <ClCompile Include="Greedy\10162.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="10610.cpp">
+    <ClCompile Include="Greedy\10610.cpp">
       <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\11047.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\11399.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\13305.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="2752.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="2750.cpp">
+      <Filter>Sort</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
