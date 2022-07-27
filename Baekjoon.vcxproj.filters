@@ -69,5 +69,8 @@
     <ClCompile Include="2751.cpp">
       <Filter>Sort</Filter>
     </ClCompile>
+    <ClCompile Include="1946.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
