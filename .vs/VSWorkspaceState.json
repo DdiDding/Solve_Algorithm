@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Greedy",
+    "\\Sort"
   ],
-  "SelectedNode": "\\Brute_Force",
+  "SelectedNode": "\\Greedy",
   "PreviewInSolutionExplorer": false
 }

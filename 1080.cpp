@@ -1,13 +1,14 @@
 #include<stdio.h>
 typedef unsigned char uc;
-static const int MAX_SIZE = 10000;
+typedef unsigned short us;
+static const int MAX_SIZE = 2501;
 
 int main()
 {
 	int i, j, k;
-	unsigned short N, M;
+	us N, M;
 	scanf("%hu %hu", &N, &M);
-	uc size = N * M;
+	short size = N * M;
 
 	int result = 0;
 	uc a[MAX_SIZE];
@@ -16,13 +17,15 @@ int main()
 
 	for (i = 0; i < size; ++i)
 	{
-		scanf(" %c", &a[i]);
-		a[i] -= 48;
+		scanf("%1d", &a[i]);
+		/*scanf(" %c", &a[i]);
+		a[i] -= 48;*/
 	}
 	for (i = 0; i < size; ++i)
 	{
-		scanf(" %c", &b[i]);
-		b[i] -= 48;
+		scanf("%1d", &b[i]);
+		/*scanf(" %c", &b[i]);
+		b[i] -= 48;*/
 	}
 	
 
