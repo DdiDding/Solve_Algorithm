@@ -90,5 +90,6 @@
     <ClCompile Include="9093.cpp">
       <Filter>Stack</Filter>
     </ClCompile>
+    <ClCompile Include="9012.cpp" />
   </ItemGroup>
 </Project>
