@@ -13,6 +13,9 @@
     <Filter Include="Stack">
       <UniqueIdentifier>{10cca410-f2af-4398-84d2-0bdaa6b95602}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DP">
+      <UniqueIdentifier>{a9d7677d-d0ec-4f28-be46-855433aaff5f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -95,5 +98,8 @@
       <Filter>Stack</Filter>
     </ClCompile>
     <ClCompile Include="1011.cpp" />
+    <ClCompile Include="1202.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
