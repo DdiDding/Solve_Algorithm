@@ -16,6 +16,9 @@
     <Filter Include="DP">
       <UniqueIdentifier>{a9d7677d-d0ec-4f28-be46-855433aaff5f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{00c8d9cd-1481-4fa1-b612-c2c01640ab02}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -103,6 +106,9 @@
     </ClCompile>
     <ClCompile Include="2109.cpp">
       <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="13023.cpp">
+      <Filter>Graph</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
