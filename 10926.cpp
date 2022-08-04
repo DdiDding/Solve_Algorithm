@@ -2,13 +2,12 @@
 #include <string>
 #include <stdio.h>
 using namespace std;
-
+#define CHANGE (2541 - 1998);
 int main()
 {
-	printf("\\    /\\\n");
-	printf(" )  ( ')\n");
-	printf("(  /  )\n");
-	printf(" \\(__)|");
+	short input;
+	cin >> input;
+	cout << input - CHANGE;
 
 	return 0;
 }
