@@ -5,13 +5,10 @@ using namespace std;
 
 int main()
 {
-	char cha[51];
-	scanf("%s", &cha);
-	printf("%s??!", cha);
+	printf("\\    /\\\n");
+	printf(" )  ( ')\n");
+	printf("(  /  )\n");
+	printf(" \\(__)|");
 
-	//or
-	/*string str;
-	cin >> str;
-	cout << str << "??!";*/
 	return 0;
 }
