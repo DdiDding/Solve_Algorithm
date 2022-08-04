@@ -19,6 +19,9 @@
     <Filter Include="Graph">
       <UniqueIdentifier>{00c8d9cd-1481-4fa1-b612-c2c01640ab02}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Output">
+      <UniqueIdentifier>{2e080059-69b9-4921-8b18-707dde6897ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -127,6 +130,9 @@
     </ClCompile>
     <ClCompile Include="2178.cpp">
       <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="10926.cpp">
+      <Filter>Output</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
