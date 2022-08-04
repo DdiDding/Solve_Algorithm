@@ -134,5 +134,8 @@
     <ClCompile Include="10926.cpp">
       <Filter>Output</Filter>
     </ClCompile>
+    <ClCompile Include="2588.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
