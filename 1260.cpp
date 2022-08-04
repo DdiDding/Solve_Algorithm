@@ -15,7 +15,7 @@ integer N, M, V;
 //2.최소힙 사용해서 top으로 재귀돌리기 
 
 priority_queue<integer,vector<integer>,greater<integer>> node[MAX_NODE];
-priority_queue<integer,vector<integer>,greater<integer>> node2[MAX_NODE];
+priority_queue<integer,vector<integer>,greater<integer>> node2[MAX_NODE]; 
 bool bIsVisit[MAX_NODE]{ false };
 bool result = false;
 void Dfs(const int & num)
