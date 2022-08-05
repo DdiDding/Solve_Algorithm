@@ -147,5 +147,14 @@
     <ClCompile Include="2884.cpp">
       <Filter>Output</Filter>
     </ClCompile>
+    <ClCompile Include="24445.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="2213.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="2525.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
