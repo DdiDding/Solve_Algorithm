@@ -143,5 +143,9 @@
     <ClCompile Include="Graph\24444.cpp">
       <Filter>Graph</Filter>
     </ClCompile>
+    <ClCompile Include="1330.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
 </Project>

@@ -43,6 +43,7 @@ int main()
 	cin >> node >> edge >> start;
 	memset(result, 0, sizeof(int) * node + 1);
 
+
 	int temp1, temp2;
 	for (int i = 1; i <= edge; ++i)
 	{
