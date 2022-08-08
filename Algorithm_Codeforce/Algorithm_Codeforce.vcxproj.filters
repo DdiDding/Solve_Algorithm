@@ -8,6 +8,9 @@
     <ClCompile Include="4A.cpp">
       <Filter>BF</Filter>
     </ClCompile>
+    <ClCompile Include="71A.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Greedy">
@@ -15,6 +18,9 @@
     </Filter>
     <Filter Include="BF">
       <UniqueIdentifier>{cc15e23d-399b-4c60-a246-36846f60508e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{c3b137e5-68ca-4219-94cd-12e00c0f728a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
