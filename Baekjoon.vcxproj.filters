@@ -162,5 +162,8 @@
     <ClCompile Include="11021.cpp">
       <Filter>Output</Filter>
     </ClCompile>
+    <ClCompile Include="11022.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
