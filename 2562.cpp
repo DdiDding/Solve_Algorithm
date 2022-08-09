@@ -27,11 +27,3 @@ int main()
 	}
 	return 0;
 }
-
-/*for (int j = 0; j < str.length(); ++j)
-		{
-			for (int k = 0; k < R; ++k)
-			{
-				cout << str[j];
-			}
-		}*/
