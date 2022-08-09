@@ -11,6 +11,7 @@
     <ClCompile Include="71A.cpp">
       <Filter>String</Filter>
     </ClCompile>
+    <ClCompile Include="231A.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Greedy">
