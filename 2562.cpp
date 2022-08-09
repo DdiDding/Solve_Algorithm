@@ -9,16 +9,29 @@ using namespace std;
 int main()
 {
 	ios::sync_with_stdio(0), cin.tie(0);
-	pair<int, int> max = make_pair(-1, -1);
-	for (int i = 1; i <= 9; ++i)
+	int N; cin >> N;
+
+	int R;
+	string str;
+	for (int i = 0; i < N; ++i)
 	{
-		int temp; cin >> temp;
-		if (max.first < temp)
+		cin >> R;
+		cin >> str;
+		for (char c : str)
 		{
-			max.first = temp;
-			max.second = i;
+			cout << string(R, c);
 		}
+
+		
+		cout << "\n";
 	}
-	cout << max.first << endl << max.second;
 	return 0;
 }
+
+/*for (int j = 0; j < str.length(); ++j)
+		{
+			for (int k = 0; k < R; ++k)
+			{
+				cout << str[j];
+			}
+		}*/
