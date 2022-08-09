@@ -186,5 +186,8 @@
     <ClCompile Include="11654.cpp">
       <Filter>Output</Filter>
     </ClCompile>
+    <ClCompile Include="7568.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
