@@ -15,6 +15,7 @@
       <Filter>BF</Filter>
     </ClCompile>
     <ClCompile Include="1A.cpp" />
+    <ClCompile Include="1714C.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Greedy">
