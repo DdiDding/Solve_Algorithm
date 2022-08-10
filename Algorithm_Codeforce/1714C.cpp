@@ -1,8 +1,4 @@
 #include <iostream>
-#include <string>
-#include <algorithm>
-#include <functional>
-#include <vector>
 #include <queue>
 #include <stack>
 using namespace std;
@@ -13,8 +9,6 @@ int main()
 	int T; cin >> T;
 
 	int s;
-	int list[9] = { 1,2,3,4,5,6,7,8,9 };
-	vector<int> q(9,0);
 	stack<int> stc;
 	for (int i = 0; i < T; ++i)
 	{
