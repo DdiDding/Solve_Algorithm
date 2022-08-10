@@ -189,5 +189,8 @@
     <ClCompile Include="7568.cpp">
       <Filter>Brute_Force</Filter>
     </ClCompile>
+    <ClCompile Include="1339.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
