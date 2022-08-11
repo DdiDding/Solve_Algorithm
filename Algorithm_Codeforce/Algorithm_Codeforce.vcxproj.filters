@@ -16,6 +16,12 @@
     </ClCompile>
     <ClCompile Include="1A.cpp" />
     <ClCompile Include="1714C.cpp" />
+    <ClCompile Include="1705A.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="1428B.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Greedy">
@@ -26,6 +32,9 @@
     </Filter>
     <Filter Include="String">
       <UniqueIdentifier>{c3b137e5-68ca-4219-94cd-12e00c0f728a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{83d4b10e-4aa8-4328-a112-1bc460d57288}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
