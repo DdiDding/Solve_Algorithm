@@ -204,5 +204,8 @@
     <ClCompile Include="2606.cpp">
       <Filter>Graph</Filter>
     </ClCompile>
+    <ClCompile Include="2667.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
