@@ -9,9 +9,9 @@ using namespace std;
 
 #define MAX 26
 
+//int visit[MAX][MAX];
 //0이면 없음, 1이면 집, 2면 방문완료
 int map[MAX][MAX];
-//int visit[MAX][MAX];
 
 int X[4] = { 0, 1, 0, -1 };
 int Y[4] = { 1, 0, -1, 0 };
