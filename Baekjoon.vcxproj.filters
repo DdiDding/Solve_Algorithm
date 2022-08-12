@@ -225,5 +225,8 @@
     <ClCompile Include="1149.cpp">
       <Filter>DP</Filter>
     </ClCompile>
+    <ClCompile Include="11726.cpp">
+      <Filter>DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
