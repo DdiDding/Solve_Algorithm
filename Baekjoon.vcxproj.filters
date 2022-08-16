@@ -22,6 +22,9 @@
     <Filter Include="Output">
       <UniqueIdentifier>{2e080059-69b9-4921-8b18-707dde6897ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Not solved">
+      <UniqueIdentifier>{8093545a-b331-4fc4-9049-552f21a21dff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -234,8 +237,13 @@
     <ClCompile Include="12852.cpp">
       <Filter>DP</Filter>
     </ClCompile>
-    <ClCompile Include="1744.cpp" />
     <ClCompile Include="10871.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
+    <ClCompile Include="1744.cpp">
+      <Filter>Not solved</Filter>
+    </ClCompile>
+    <ClCompile Include="2864.cpp">
       <Filter>Output</Filter>
     </ClCompile>
   </ItemGroup>
