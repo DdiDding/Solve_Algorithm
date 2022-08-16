@@ -246,5 +246,11 @@
     <ClCompile Include="2864.cpp">
       <Filter>Output</Filter>
     </ClCompile>
+    <ClCompile Include="3052.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
+    <ClCompile Include="1003.cpp">
+      <Filter>DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
