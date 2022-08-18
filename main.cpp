@@ -5,6 +5,7 @@
 #include <vector>
 #include <queue>
 #include <map>
+#include <cstring>
 #include <stack>
 using namespace std;
 
