@@ -282,5 +282,11 @@
     <ClCompile Include="7576.cpp">
       <Filter>Graph</Filter>
     </ClCompile>
+    <ClCompile Include="16928.cpp">
+      <Filter>Not solved</Filter>
+    </ClCompile>
+    <ClCompile Include="1546.cpp">
+      <Filter>Output</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
