@@ -24,14 +24,15 @@ int main() {
 				++cnt; 
 			}
 
+			//한방향으로 모두가능한지 체크
 			if (s[p] == '<') { right = false; }
 			else if (s[p] == '>') { left = false; }
 		}
 
+		//어느 한방향으로 모두가능하면 방개수만큼 가능
 		if (left || right) { cnt = n; }
 		cout << cnt << endl;
 	}
-
 	return 0;
 }
 
