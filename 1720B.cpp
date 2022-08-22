@@ -21,4 +21,4 @@ int main()
 		cout << arr[N] + arr[N - 1] - arr[1] - arr[2] << "\n";
 	}
 	return 0;
-}d
+}
