@@ -300,5 +300,8 @@
     <ClCompile Include="2225.cpp">
       <Filter>Not solved</Filter>
     </ClCompile>
+    <ClCompile Include="15988.cpp">
+      <Filter>DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
