@@ -25,6 +25,9 @@
     <Filter Include="Not solved">
       <UniqueIdentifier>{8093545a-b331-4fc4-9049-552f21a21dff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{fefb7a5f-f5ba-4a5e-a6c5-68272a4a710f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -310,7 +313,10 @@
       <Filter>Graph</Filter>
     </ClCompile>
     <ClCompile Include="1543.cpp">
-      <Filter>Greedy</Filter>
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="11057.cpp">
+      <Filter>DP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
