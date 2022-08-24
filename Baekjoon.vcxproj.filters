@@ -327,6 +327,11 @@
     <ClCompile Include="2156.cpp">
       <Filter>DP</Filter>
     </ClCompile>
-    <ClCompile Include="1932.cpp" />
+    <ClCompile Include="1932.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="13398.cpp">
+      <Filter>DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
