@@ -28,6 +28,9 @@
     <Filter Include="String">
       <UniqueIdentifier>{fefb7a5f-f5ba-4a5e-a6c5-68272a4a710f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Search">
+      <UniqueIdentifier>{254532ff-7e4d-498b-a402-8cc13bfb7113}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -332,6 +335,9 @@
     </ClCompile>
     <ClCompile Include="13398.cpp">
       <Filter>DP</Filter>
+    </ClCompile>
+    <ClCompile Include="1920.cpp">
+      <Filter>Search</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
