@@ -339,5 +339,8 @@
     <ClCompile Include="1920.cpp">
       <Filter>Search</Filter>
     </ClCompile>
+    <ClCompile Include="10816.cpp">
+      <Filter>Search</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
