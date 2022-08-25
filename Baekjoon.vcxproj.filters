@@ -345,5 +345,8 @@
     <ClCompile Include="18870.cpp">
       <Filter>Search</Filter>
     </ClCompile>
+    <ClCompile Include="2295.cpp">
+      <Filter>Search</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
