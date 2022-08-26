@@ -366,5 +366,11 @@
     <ClCompile Include="10872.cpp">
       <Filter>Recursive</Filter>
     </ClCompile>
+    <ClCompile Include="10870.cpp">
+      <Filter>Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="2447.cpp">
+      <Filter>Recursive</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
