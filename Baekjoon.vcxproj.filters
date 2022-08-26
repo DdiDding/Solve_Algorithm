@@ -31,6 +31,9 @@
     <Filter Include="Search">
       <UniqueIdentifier>{254532ff-7e4d-498b-a402-8cc13bfb7113}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Recursive">
+      <UniqueIdentifier>{37904852-fb7e-4a9f-81c8-cc5845b67ca1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -347,6 +350,9 @@
     </ClCompile>
     <ClCompile Include="2295.cpp">
       <Filter>Search</Filter>
+    </ClCompile>
+    <ClCompile Include="1629.cpp">
+      <Filter>Recursive</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
