@@ -34,6 +34,9 @@
     <Filter Include="Recursive">
       <UniqueIdentifier>{37904852-fb7e-4a9f-81c8-cc5845b67ca1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Back Traking">
+      <UniqueIdentifier>{7361c046-f9c5-4d9b-b192-7f39838dafec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -370,7 +373,10 @@
       <Filter>Recursive</Filter>
     </ClCompile>
     <ClCompile Include="2447.cpp">
-      <Filter>Recursive</Filter>
+      <Filter>Not solved</Filter>
+    </ClCompile>
+    <ClCompile Include="15649.cpp">
+      <Filter>Back Traking</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
