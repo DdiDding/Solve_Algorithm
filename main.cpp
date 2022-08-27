@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <functional>
 #include <vector>
+#include <unordered_set>
 #include <map>
 #include <set>
 #include <cstring>

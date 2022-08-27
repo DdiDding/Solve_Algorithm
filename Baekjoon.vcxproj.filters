@@ -34,7 +34,10 @@
     <Filter Include="Recursive">
       <UniqueIdentifier>{37904852-fb7e-4a9f-81c8-cc5845b67ca1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Back Traking">
+    <Filter Include="Simulation">
+      <UniqueIdentifier>{79040213-4ee8-4d81-8f94-03affb1e83aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back Tracking">
       <UniqueIdentifier>{7361c046-f9c5-4d9b-b192-7f39838dafec}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -376,22 +379,28 @@
       <Filter>Not solved</Filter>
     </ClCompile>
     <ClCompile Include="15649.cpp">
-      <Filter>Back Traking</Filter>
+      <Filter>Back Tracking</Filter>
     </ClCompile>
     <ClCompile Include="9663.cpp">
-      <Filter>Back Traking</Filter>
+      <Filter>Back Tracking</Filter>
     </ClCompile>
     <ClCompile Include="1182.cpp">
-      <Filter>Back Traking</Filter>
+      <Filter>Back Tracking</Filter>
     </ClCompile>
     <ClCompile Include="15650.cpp">
-      <Filter>Back Traking</Filter>
+      <Filter>Back Tracking</Filter>
     </ClCompile>
     <ClCompile Include="15651.cpp">
-      <Filter>Back Traking</Filter>
+      <Filter>Back Tracking</Filter>
     </ClCompile>
     <ClCompile Include="15652.cpp">
-      <Filter>Back Traking</Filter>
+      <Filter>Back Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="15683.cpp">
+      <Filter>Not solved</Filter>
+    </ClCompile>
+    <ClCompile Include="10809.cpp">
+      <Filter>String</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
