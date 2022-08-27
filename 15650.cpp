@@ -24,6 +24,7 @@ int main()
 	return 0;
 }
 
+
 ////idx = 자신이 몇번째인지, level = 깊이
 //void Solve(int idx, int level)
 //{
