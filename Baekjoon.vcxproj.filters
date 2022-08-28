@@ -420,5 +420,14 @@
     <ClCompile Include="12865.cpp">
       <Filter>Not solved%282%29</Filter>
     </ClCompile>
+    <ClCompile Include="16500.cpp">
+      <Filter>Not solved%282%29</Filter>
+    </ClCompile>
+    <ClCompile Include="2248.cpp">
+      <Filter>Not solved%282%29</Filter>
+    </ClCompile>
+    <ClCompile Include="24416.cpp">
+      <Filter>DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
