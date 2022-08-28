@@ -40,6 +40,9 @@
     <Filter Include="Back Tracking">
       <UniqueIdentifier>{7361c046-f9c5-4d9b-b192-7f39838dafec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Not solved%282%29">
+      <UniqueIdentifier>{4bfd9711-4138-4706-b805-27f6387486fa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -409,6 +412,9 @@
       <Filter>String</Filter>
     </ClCompile>
     <ClCompile Include="2294.cpp">
+      <Filter>Not solved%282%29</Filter>
+    </ClCompile>
+    <ClCompile Include="11051.cpp">
       <Filter>DP</Filter>
     </ClCompile>
   </ItemGroup>
