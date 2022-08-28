@@ -43,6 +43,9 @@
     <Filter Include="Not solved%282%29">
       <UniqueIdentifier>{4bfd9711-4138-4706-b805-27f6387486fa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Priority_queue">
+      <UniqueIdentifier>{b8ad52bc-5579-4250-b14a-fecac90b94a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -428,6 +431,12 @@
     </ClCompile>
     <ClCompile Include="24416.cpp">
       <Filter>DP</Filter>
+    </ClCompile>
+    <ClCompile Include="11066.cpp">
+      <Filter>DP</Filter>
+    </ClCompile>
+    <ClCompile Include="13975.cpp">
+      <Filter>Priority_queue</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
