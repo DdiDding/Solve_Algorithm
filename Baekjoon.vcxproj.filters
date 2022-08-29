@@ -46,6 +46,9 @@
     <Filter Include="Priority_queue">
       <UniqueIdentifier>{b8ad52bc-5579-4250-b14a-fecac90b94a9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Hash">
+      <UniqueIdentifier>{c4585e9a-bdff-4e1a-84b5-055e20447c4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -432,11 +435,17 @@
     <ClCompile Include="24416.cpp">
       <Filter>DP</Filter>
     </ClCompile>
-    <ClCompile Include="11066.cpp">
-      <Filter>DP</Filter>
-    </ClCompile>
     <ClCompile Include="13975.cpp">
       <Filter>Priority_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="11066.cpp">
+      <Filter>Not solved</Filter>
+    </ClCompile>
+    <ClCompile Include="3687.cpp">
+      <Filter>Not solved%282%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7785.cpp">
+      <Filter>Hash</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
