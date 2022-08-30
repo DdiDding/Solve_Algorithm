@@ -1,15 +1,4 @@
-#include <iostream>
-#include <string>
-#include <algorithm>
-#include <functional>
-#include <vector>
-#include <unordered_set>
-#include <map>
-#include <set>
-#include <cstring>
-#include <stack>
-#include <queue>
-#include <bitset>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
