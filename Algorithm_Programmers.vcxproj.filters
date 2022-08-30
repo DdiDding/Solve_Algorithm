@@ -3,5 +3,6 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="같은 숫자는 싫어.cpp" />
+    <ClCompile Include="내적.cpp" />
   </ItemGroup>
 </Project>
