@@ -29,7 +29,7 @@ int main()
 	for (const auto & data : v)
 	{
 		cout << data << '\n';
-	}	
-	
+	}
+
 	return 0;
 }

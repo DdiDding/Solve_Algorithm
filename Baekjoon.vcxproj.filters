@@ -438,14 +438,17 @@
     <ClCompile Include="13975.cpp">
       <Filter>Priority_queue</Filter>
     </ClCompile>
-    <ClCompile Include="11066.cpp">
-      <Filter>Not solved</Filter>
-    </ClCompile>
     <ClCompile Include="3687.cpp">
       <Filter>Not solved%282%29</Filter>
     </ClCompile>
     <ClCompile Include="7785.cpp">
       <Filter>Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="11066.cpp">
+      <Filter>Not solved%282%29</Filter>
+    </ClCompile>
+    <ClCompile Include="1010.cpp">
+      <Filter>DP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

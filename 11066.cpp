@@ -1,37 +1,40 @@
-#include <iostream>
+#include <stdio.h>
+#include <string.h>
+#include <limits.h>
 #include <algorithm>
-#include <queue>
-typedef long long int ll;
 using namespace std;
 
-int main()
-{
-	ios::sync_with_stdio(0), cin.tie(0);
-	int T; cin >> T;
+int dp[501][501];
+//각 파일의 비용이 저장
+int cost[501];
+//각 파일을 두개씩 저장한것.
+int sum[501];
+int t, k, i;
 
-	while (T--)
-	{
-		//1. Get Input value
-		priority_queue<ll,vector<ll>,greater<ll>> q;
-		int k; cin >> k;
-		ll a, b;
-		while (k--)
-		{
-			cin >> a;
-			q.push(a);
+int main() {
+	scanf("%d", &t);
+	while (t--) {
+
+		scanf("%d", &k);
+		for (i = 1; i <= k; ++i) {
+			scanf("%d", &cost[i]);
+			sum[i] = sum[i - 1] + cost[i];
 		}
 
-		//2. Calculate
-		ll result = 0;
-		while (1 < q.size())
-		{
-			a = q.top(); q.pop();
-			b = q.top(); q.pop();
-			result += a + b;
-			q.push(a + b);
+		//처음 파일 개수 만큼
+		for (int d = 1; d < k; ++d) {
+			//
+			for (int tx = 1; tx + d <= k; ++tx) {
+				int ty = tx + d;
+				dp[tx][ty] = INT_MAX;
+
+				for (int mid = tx; mid < ty; ++mid)
+					dp[tx][ty] =
+					min(dp[tx][ty], dp[tx][mid] + dp[mid + 1][ty] + sum[ty] - sum[tx - 1]);
+			}
 		}
 
-		cout << result << '\n';
+		printf("%d\n", dp[1][k]);
 	}
 	return 0;
 }
