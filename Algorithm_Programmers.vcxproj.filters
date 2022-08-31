@@ -2,7 +2,19 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="같은 숫자는 싫어.cpp" />
-    <ClCompile Include="내적.cpp" />
+    <ClCompile Include="성격 유형 검사하기.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
+    <ClCompile Include="같은 숫자는 싫어.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
+    <ClCompile Include="내적.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Level 1">
+      <UniqueIdentifier>{da24dbed-9df2-4fb0-81ea-fd09feb73a29}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
