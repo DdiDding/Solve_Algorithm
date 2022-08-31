@@ -456,5 +456,8 @@
     <ClCompile Include="3085.cpp">
       <Filter>Not solved%282%29</Filter>
     </ClCompile>
+    <ClCompile Include="11448.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
