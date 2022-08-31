@@ -423,9 +423,6 @@
     <ClCompile Include="11051.cpp">
       <Filter>Not solved%282%29</Filter>
     </ClCompile>
-    <ClCompile Include="12865.cpp">
-      <Filter>Not solved%282%29</Filter>
-    </ClCompile>
     <ClCompile Include="16500.cpp">
       <Filter>Not solved%282%29</Filter>
     </ClCompile>
@@ -449,6 +446,15 @@
     </ClCompile>
     <ClCompile Include="1010.cpp">
       <Filter>DP</Filter>
+    </ClCompile>
+    <ClCompile Include="12865.cpp">
+      <Filter>DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2580.cpp">
+      <Filter>Not solved%282%29</Filter>
+    </ClCompile>
+    <ClCompile Include="3085.cpp">
+      <Filter>Not solved%282%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
