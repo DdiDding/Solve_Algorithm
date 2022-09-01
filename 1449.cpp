@@ -19,19 +19,15 @@ int main()
 	for (int i = 0; i < n; ++i)
 	{
 		//테이프 붙인다.
-		//cout << i << "번째 구멍인"<< arr[i] - 1<<".5 부터 테이프로 막습니다." << endl;
 		end = arr[i] + l;
 		++cnt;
 		//다음 구멍에도 막을 수 있는지 확인
 		while(arr[i + 1] < end && arr[i + 1] != 0)
 		{
-			//cout << "테이프를 붙인 끝 길이는 :" << end-1 << ".5, 현재 비교하는 구멍의 위치는 :" << arr[i + 1] << "이므로 일이 한편 쉬워졌습니다."<< endl;
 			++i;
 		}
-		//cout << endl<<endl;
 	}
 
-	//cout << "테이프를 사용한 횟수는:" << cnt << "입니다.";
 	cout << cnt;
 	return 0;
 }
