@@ -11,6 +11,12 @@
     <ClCompile Include="내적.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="숫자 문자열과 영단어.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
+    <ClCompile Include="신고 결과 받기.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
