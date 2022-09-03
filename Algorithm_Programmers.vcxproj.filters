@@ -17,6 +17,9 @@
     <ClCompile Include="신고 결과 받기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="최소직사각형.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
