@@ -1,44 +1,18 @@
 #include <bits/stdc++.h>
+#define CAL(x) x = 100 * (x % 10) + 10 * (x / 10 % 10) + x / 100;
 using namespace std;
 
 int main()
 {
 	ios::sync_with_stdio(0), cin.tie(0);
-	string a, b, c = ""; cin >> a >> b;
-	for (int i = a.size() - 1; 0 <= i; --i)
-	{
-		if (c == "")
-		{
-			if (a[i] == b[i])
-			{
-				cout << a[i];
-				continue;
-			}
-			a[i] > b[i] ? c = a : c = b;
-		}
-		cout << c[i];
-	}
+	int a, b; cin >> a >> b;
+	
+	CAL(a);
+	CAL(b);
+
+	cout << (a > b ? a : b);
 	return 0;
 }
-//
-//int main()
-//{
-//	ios::sync_with_stdio(0), cin.tie(0);
-//	string a, b, c; cin >> a >> b;
-//	for (int i = a.size() - 1; 0 <= i; --i)
-//	{
-//		if (a[i] == b[i]) continue;
-//
-//		a[i] > b[i] ? c = a : c = b;
-//		break;
-//	}
-//
-//	for (int i = a.size() - 1; 0 <= i; --i)
-//	{
-//		cout << c[i];
-//	}
-//	return 0;
-//}
 
 /*
 수학을 정말 못해

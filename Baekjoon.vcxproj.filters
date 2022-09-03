@@ -480,5 +480,8 @@
     <ClCompile Include="2908.cpp">
       <Filter>String</Filter>
     </ClCompile>
+    <ClCompile Include="5622.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
