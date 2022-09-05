@@ -23,6 +23,9 @@
     <ClCompile Include="짝수와 홀수.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="모의고사.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
