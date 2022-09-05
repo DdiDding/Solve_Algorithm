@@ -486,5 +486,11 @@
     <ClCompile Include="2775.cpp" />
     <ClCompile Include="2839.cpp" />
     <ClCompile Include="1712.cpp" />
+    <ClCompile Include="2437.cpp">
+      <Filter>Not solved%282%29</Filter>
+    </ClCompile>
+    <ClCompile Include="2720.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
