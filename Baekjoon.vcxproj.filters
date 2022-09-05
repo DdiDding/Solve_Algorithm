@@ -483,8 +483,8 @@
     <ClCompile Include="5622.cpp">
       <Filter>String</Filter>
     </ClCompile>
-    <ClCompile Include="14888.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
+    <ClCompile Include="2775.cpp" />
+    <ClCompile Include="2839.cpp" />
+    <ClCompile Include="1712.cpp" />
   </ItemGroup>
 </Project>
