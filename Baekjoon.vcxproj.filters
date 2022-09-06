@@ -49,6 +49,9 @@
     <Filter Include="Hash">
       <UniqueIdentifier>{c4585e9a-bdff-4e1a-84b5-055e20447c4f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Implement">
+      <UniqueIdentifier>{8ed1cc31-980c-4095-b222-015326d80e24}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -126,11 +129,9 @@
     <ClCompile Include="9093.cpp">
       <Filter>Stack</Filter>
     </ClCompile>
-    <ClCompile Include="9012.cpp" />
     <ClCompile Include="1874.cpp">
       <Filter>Stack</Filter>
     </ClCompile>
-    <ClCompile Include="1011.cpp" />
     <ClCompile Include="1202.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
@@ -483,15 +484,32 @@
     <ClCompile Include="5622.cpp">
       <Filter>String</Filter>
     </ClCompile>
-    <ClCompile Include="2775.cpp" />
-    <ClCompile Include="2839.cpp" />
-    <ClCompile Include="1712.cpp" />
     <ClCompile Include="2437.cpp">
       <Filter>Not solved%282%29</Filter>
     </ClCompile>
     <ClCompile Include="2720.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="15596.cpp" />
+    <ClCompile Include="15596.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="1011.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="1712.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="2775.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="2839.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="9012.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="5086.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
