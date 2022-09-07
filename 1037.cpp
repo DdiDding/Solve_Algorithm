@@ -17,10 +17,17 @@ int main()
 	}
 	sort(arr, arr + n, greater<int>());
 
-	for (int i = 0; i < n; ++i)
+	arr[0] *= 2;
+	for (int i = 1; i < n; ++i)
 	{
-
+		if (1 <= arr[0] % arr[i])
+		{
+			i = -1;
+			arr[0] *= 2;
+			continue;
+		}
 	}
 
+	cout << arr[0];
 	return 0;
 }
