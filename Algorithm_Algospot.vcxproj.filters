@@ -4,5 +4,6 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="보글 게임.cpp" />
     <ClCompile Include="소풍.cpp" />
+    <ClCompile Include="ANAGRAM.cpp" />
   </ItemGroup>
 </Project>
