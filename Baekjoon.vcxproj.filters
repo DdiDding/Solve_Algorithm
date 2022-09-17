@@ -457,9 +457,6 @@
     <ClCompile Include="3085.cpp">
       <Filter>Not solved%282%29</Filter>
     </ClCompile>
-    <ClCompile Include="11448.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
     <ClCompile Include="2503.cpp">
       <Filter>Brute_Force</Filter>
     </ClCompile>
@@ -514,5 +511,12 @@
     <ClCompile Include="1037.cpp">
       <Filter>Implement</Filter>
     </ClCompile>
+    <ClCompile Include="10448.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="14888.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="11000.cpp" />
   </ItemGroup>
 </Project>
