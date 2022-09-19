@@ -7,6 +7,22 @@ typedef long long ll;
 using namespace std;
 typedef long long ll;
 
+ll BS(ll n)
+{
+	ll s = 0, e = 10000000;
+	ll m;
+
+	while (s < e)
+	{
+		m = (s + e + 1) / 2;
+		cout << "s : " << s << "//e : " << e << "//m : " << m << endl;
+		if (m * m == n) return pow(m + 1, 2);
+		if (n < (m * m)) e = m - 1;
+		else s = m;
+	}
+	return -1;
+}
+
 
 ll solution(ll n) {
 
@@ -17,25 +33,3 @@ ll solution(ll n) {
 /*
 n에 대해 x의 제곱인가?
 */
-
-int BS(int n)
-{
-	ll s = 0, e = 5000000;
-	ll m;
-
-	while (s < e)
-	{
-		m = (s + e + 1) / 2;
-		cout << "s : " << s << "//e : " << e << "//m : " << m << endl;
-		if (m * m == n) return m + 1;
-		if (n < (m * m)) e = m - 1;
-		else s = m;
-	}
-	return -1;
-}
-
-int main()
-{
-	cout << "정답" <<BS(1);
-	return 0;
-}
