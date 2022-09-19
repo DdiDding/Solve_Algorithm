@@ -44,6 +44,9 @@
     <ClCompile Include="자연수 뒤집어 배열로 만들기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="문자열 내 p와 y의 개수.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
