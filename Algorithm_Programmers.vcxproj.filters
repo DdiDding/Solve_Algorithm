@@ -47,6 +47,9 @@
     <ClCompile Include="문자열 내 p와 y의 개수.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="하샤드 수.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
