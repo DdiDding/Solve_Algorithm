@@ -59,6 +59,9 @@
     <ClCompile Include="직사각형 별찍기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="문자열 내 마음대로 정렬하기.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
