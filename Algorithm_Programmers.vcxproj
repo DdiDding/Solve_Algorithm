@@ -182,6 +182,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="자연수 뒤집어 배열로 만들기.cpp" />
+    <ClCompile Include="정수 내림차순으로 배치하기.cpp" />
     <ClCompile Include="정수 제곱근 판별.cpp" />
     <ClCompile Include="짝수와 홀수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
