@@ -65,6 +65,9 @@
     <ClCompile Include="x만큼 간격이 있는 n개의 숫자.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="나머지가 1이 되는 수 찾기.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
