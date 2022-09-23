@@ -71,6 +71,9 @@
     <ClCompile Include="콜라츠 추측.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="두  정수 사이의 합.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
