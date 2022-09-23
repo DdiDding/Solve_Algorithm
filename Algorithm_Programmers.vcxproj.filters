@@ -74,6 +74,9 @@
     <ClCompile Include="두  정수 사이의 합.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="서울에서 김서방 찾기.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
