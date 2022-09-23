@@ -159,6 +159,7 @@
     <ClCompile Include="같은 숫자는 싫어.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="나누어 떨어지는 숫자 배열.cpp" />
     <ClCompile Include="나머지가 1이 되는 수 찾기.cpp" />
     <ClCompile Include="내적.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>

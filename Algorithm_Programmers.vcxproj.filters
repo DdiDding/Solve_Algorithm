@@ -80,6 +80,9 @@
     <ClCompile Include="핸드폰 번호 가리기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="나누어 떨어지는 숫자 배열.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
