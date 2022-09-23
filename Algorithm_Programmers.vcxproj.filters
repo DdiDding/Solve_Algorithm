@@ -95,6 +95,9 @@
     <ClCompile Include="없는 숫자 더하기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="문자열 내림차순으로 배치하기.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
