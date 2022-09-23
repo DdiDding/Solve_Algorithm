@@ -179,6 +179,7 @@
     <ClCompile Include="성격 유형 검사하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="수박수박수박수박수박수.cpp" />
     <ClCompile Include="숫자 문자열과 영단어.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
