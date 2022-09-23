@@ -156,6 +156,7 @@
       </ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="x만큼 간격이 있는 n개의 숫자.cpp" />
+    <ClCompile Include="가운데 글자 가져오기.cpp" />
     <ClCompile Include="같은 숫자는 싫어.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

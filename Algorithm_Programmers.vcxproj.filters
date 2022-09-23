@@ -89,6 +89,9 @@
     <ClCompile Include="수박수박수박수박수박수.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="가운데 글자 가져오기.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
