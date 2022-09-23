@@ -101,6 +101,9 @@
     <ClCompile Include="문자열 다루기 기본.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="약수의 개수와 덧셈.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
