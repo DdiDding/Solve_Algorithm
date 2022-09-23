@@ -10,5 +10,7 @@ vector<int> solution(vector<int> arr, int divisor) {
 	}
 	if (answer.size() == 0) answer.push_back(-1);
 	else sort(answer.begin(), answer.end());
+
+	answer.
 	return answer;
 }
