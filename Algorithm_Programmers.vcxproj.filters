@@ -104,6 +104,9 @@
     <ClCompile Include="약수의 개수와 덧셈.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="행렬의 덧셈.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
