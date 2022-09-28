@@ -199,6 +199,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="없는 숫자 더하기.cpp" />
+    <ClCompile Include="예산.cpp" />
     <ClCompile Include="음양 더하기.cpp" />
     <ClCompile Include="이상한 문자 만들기.cpp" />
     <ClCompile Include="자릿수 더하기.cpp">
