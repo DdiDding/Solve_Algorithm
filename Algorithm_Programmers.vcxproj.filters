@@ -134,6 +134,9 @@
     <ClCompile Include="폰켓몬.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="소수 찾기.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
