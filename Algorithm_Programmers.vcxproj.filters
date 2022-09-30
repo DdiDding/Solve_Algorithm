@@ -137,6 +137,9 @@
     <ClCompile Include="소수 찾기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="소수 만들기.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
