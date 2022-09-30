@@ -199,6 +199,7 @@
     <ClCompile Include="신규 아이디 추천.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="실패율.cpp" />
     <ClCompile Include="약수의 개수와 덧셈.cpp" />
     <ClCompile Include="약수의 합.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
