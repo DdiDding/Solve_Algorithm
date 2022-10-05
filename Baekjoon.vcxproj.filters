@@ -523,5 +523,6 @@
     <ClCompile Include="14501.cpp">
       <Filter>Brute_Force</Filter>
     </ClCompile>
+    <ClCompile Include="1000.cpp" />
   </ItemGroup>
 </Project>
