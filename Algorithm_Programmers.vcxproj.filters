@@ -150,6 +150,9 @@
       <Filter>Level 1</Filter>
     </ClCompile>
     <ClCompile Include="삼총사.cpp" />
+    <ClCompile Include="체육복.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
