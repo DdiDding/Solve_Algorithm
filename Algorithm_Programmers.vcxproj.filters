@@ -153,6 +153,7 @@
     <ClCompile Include="체육복.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="완주하지 못한 선수.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
