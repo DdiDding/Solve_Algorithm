@@ -154,6 +154,9 @@
       <Filter>Level 1</Filter>
     </ClCompile>
     <ClCompile Include="완주하지 못한 선수.cpp" />
+    <ClCompile Include="키패드 누르기.cpp">
+      <Filter>Level 1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
