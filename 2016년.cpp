@@ -33,3 +33,4 @@ string solution(int a, int b) {
 
 	return answer[(mon + b - 1) % 7];;
 }
+
