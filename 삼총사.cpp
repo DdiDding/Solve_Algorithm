@@ -19,7 +19,7 @@ int solution(vector<int> number) {
 
 	return answer;
 }
-
+ 
 //이거 재귀 만들어보기
 
 //int result = 0;
