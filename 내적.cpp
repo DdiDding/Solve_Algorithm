@@ -12,4 +12,4 @@ int solution(vector<int> a, vector<int> b) {
 	}
 
 	return answer;
-}
+} 
