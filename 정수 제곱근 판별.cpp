@@ -30,6 +30,6 @@ ll solution(ll n) {
 	if (answer * answer == n) return pow(answer + 1, 2);
 	else return -1;
 }
-/*
+/* 
 n에 대해 x의 제곱인가?
 */
