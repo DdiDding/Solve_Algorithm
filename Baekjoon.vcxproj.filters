@@ -523,5 +523,11 @@
     <ClCompile Include="14501.cpp">
       <Filter>Brute_Force</Filter>
     </ClCompile>
+    <ClCompile Include="14502.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="14889.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
