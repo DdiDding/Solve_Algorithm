@@ -529,6 +529,11 @@
     <ClCompile Include="14889.cpp">
       <Filter>Brute_Force</Filter>
     </ClCompile>
-    <ClCompile Include="18108.cpp" />
+    <ClCompile Include="18108.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="20492.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
