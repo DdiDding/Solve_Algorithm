@@ -30,31 +30,17 @@ int main()
 	if (plus == true) ret += '1';
 
 	//3. And then ret minus 2
-	bool minus = false;
-
-	int temp = ret.at(0) - '0' - 2;
-
-	if (temp < 0)
+	int k = 0;
+	while (true)
 	{
-		minus = true;
-		temp += 10;
-	}
-	ret.at(0) = temp + '0';
-	
-	int k = 1;
-	while (minus == true)
-	{
-		temp = ret.at(k) - '0' - 1;
+		if (k == 0) ret.at(k) -= 2;
+		else ret.at(k) -= 1;
 
-		if (0 <= temp)
-		{
-			ret.at(k) = temp + '0';
-			break;
-		}
+		//양수면
+		if ('0' <= ret.at(k)) break;
+
 		//음수일 때
-		temp += 10;
-		ret.at(k) = temp + '0';
-
+		ret.at(k) += 10;
 		++k;
 	}
 
@@ -66,45 +52,3 @@ int main()
 	}
 	return 0;
 }
-/*
-
-70자리의 수를 어떻게 계산하는가?
-ULL로 7자리씩 끊어서?
-
-111,999
-222,001
-
-333 / 1000
-
-
-4 + 2
-* * * *
-. . . .
-. . . .
-. * * .
-
-5 + 3
-* * * * *
-# # # # #
-# # # # # 
-# # . # # 
-# * * * #
-
-6 + 4
-* * * * * *
-# # # # # #
-# # # # # #
-# # # # # #
-# # . . # #
-# . . . . #
-
-7 + 5
-* * * * * * *
-# # # # # # #
-# # # # # # #
-# # # # # # #
-# # # . # # #
-# # . . . # #
-# . . . . . #
-
-*/
