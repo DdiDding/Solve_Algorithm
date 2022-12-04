@@ -3,15 +3,14 @@
 #include <algorithm>
 using namespace std;
 
-int C;
-int N;
+int C, N;
 double ret;
 bool check[10];
 double m[10][10];
 
 //idx : 현재 있는 나라
 //temp : 중간 결과 값
-//cnt : 방문한 나라 카운트 처음에 1넣야ㅏ하 
+//cnt : 방문한 나라, 처음에 1을 넣어 시작한다.
 void Count(int idx, double temp, int cnt)
 {
 	//기저 사례

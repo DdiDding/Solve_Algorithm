@@ -10,7 +10,10 @@
     <ClCompile Include="게임판 덮기.cpp">
       <Filter>Failed</Filter>
     </ClCompile>
-    <ClCompile Include="Traveling Salesman Problem 1.cpp" />
+    <ClCompile Include="Traveling Salesman Problem 1.cpp">
+      <Filter>Success</Filter>
+    </ClCompile>
+    <ClCompile Include="Synchronizing Clocks.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
