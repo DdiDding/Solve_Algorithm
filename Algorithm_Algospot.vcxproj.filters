@@ -3,8 +3,21 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="보글 게임.cpp" />
-    <ClCompile Include="소풍.cpp" />
     <ClCompile Include="ANAGRAM.cpp" />
-    <ClCompile Include="비대칭 타일링.cpp" />
+    <ClCompile Include="소풍.cpp">
+      <Filter>Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="게임판 덮기.cpp">
+      <Filter>Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Traveling Salesman Problem 1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Failed">
+      <UniqueIdentifier>{1c331ef0-a8ea-4c8e-9666-0dc559c04ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Success">
+      <UniqueIdentifier>{1c473d43-fa5e-4ae1-9bff-92b68ac67908}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
