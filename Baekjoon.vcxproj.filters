@@ -535,5 +535,6 @@
     <ClCompile Include="25304.cpp">
       <Filter>Implement</Filter>
     </ClCompile>
+    <ClCompile Include="1780.cpp" />
   </ItemGroup>
 </Project>
