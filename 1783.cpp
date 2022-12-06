@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int y, x;
-int preset[8] = { 0,1,2,3,3,4,4,5 };
+int checkSet[8] = { 0,1,2,3,3,4,4,5 };
 
 int main()
 {
@@ -18,7 +18,7 @@ int main()
 	
 	if (2 < y)
 	{
-		if (x < 8) cout << preset[x];
+		if (x < 8) cout << checkSet[x];
 		else cout << 5 + (x - 7);
 	}
 

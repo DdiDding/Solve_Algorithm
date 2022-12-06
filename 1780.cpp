@@ -2,45 +2,51 @@
 using namespace std;
 
 int n;
-vector<vector<int>> maps;
+short maps[2190][2190];
 int ret[3];
 
+//x,y는 종이의 각 시작,끝 위치
+void Recursive(int yS, int yE, int xS, int xE)
+{
+	//base case. 1 * 1칸일때 카운팅 후 return
+
+	//1.모든 배열의 원소 값이 같은지 확인
+
+	//2.(true) 해당하는 값에 대한 카운팅, return
+
+	//3.(false) 9구역으로 나누고, 각 구역마다 Recursive실행
+}
+
 //N이 9라면 S는 0, E는 8이 들어온다.
-void Counting(int yS, int yE, int xS, int xE)
+void Counting(int yS, int xS, int l)
 {
 	//모든 타일이 같은지 확인 (자동으로 한칸일때도 적용된다.
 	bool isAllSame = true;
-	int std = maps[yS][xS];
-
-	for (int y = yS; y <= yE; ++y)
+	for (int y = yS; (y < yS + l) && isAllSame; ++y)
 	{
-		for (int x = xS; x <= xE; ++x)
+		for (int x = xS; (x < xS + l) && isAllSame; ++x)
 		{
-			if (maps[y][x] != std)
+			if (maps[y][x] != maps[yS][xS])
 			{
 				isAllSame = false;
-				break;
 			}
 		}
-		if (isAllSame == false) break;
 	}
-	
-	//모두 같으면 카운팅, 종료
+
+	//모두 같다면 카운트
 	if (isAllSame == true)
 	{
-		ret[maps[yS][xS] + 1] += 1;
+		++ret[maps[yS][xS] + 1];
 		return;
 	}
 	
 	//9등분한 배열마다 재귀를 들어간다.
-	int divStd = (yE - yS) / 3 + 1;
+	l /= 3;
 	for (int y = 0; y < 3; ++y)
 	{
-		int tempS_y = yS + (divStd * y);
 		for (int x = 0; x < 3; ++x)
 		{
-			int tempS_x = xS + (divStd * x);
-			Counting(tempS_y, tempS_y + divStd - 1, tempS_x, tempS_x + divStd - 1);
+			Counting(yS + l * y, xS + l * x, l);
 		}
 	}
 	return;
@@ -52,19 +58,16 @@ int main()
 	ios::sync_with_stdio(0), cin.tie(0);
 	cin >> n;
 
-	maps.resize(n + 1);
 	for (int y = 0; y < n; ++y)
 	{
-		maps[y].resize(n + 1);
 		for (int x = 0; x < n; ++x)
 		{
-			int temp; cin >> temp;
-			maps[y][x] = temp;
+			cin >> maps[y][x];
 		}
 	}
 	
 	//2. Do Recursive
-	Counting(0, n - 1, 0, n - 1);
+	Counting(0, 0, n);
 
 	//3. Print
 	for (const auto & d : ret)

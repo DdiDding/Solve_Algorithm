@@ -535,6 +535,11 @@
     <ClCompile Include="25304.cpp">
       <Filter>Implement</Filter>
     </ClCompile>
-    <ClCompile Include="1780.cpp" />
+    <ClCompile Include="1780.cpp">
+      <Filter>Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="15685.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
