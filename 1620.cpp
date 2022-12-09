@@ -3,7 +3,7 @@
 using namespace std;
 
 unordered_map<string,string> dogam;
-
+string dogam2[1'000'005];
 
 int main()
 {
@@ -14,13 +14,16 @@ int main()
 	{
 		string str; cin >> str;
 		dogam.insert({ str, to_string(i) });
-		dogam.insert({ to_string(i), str });
+		dogam2[i] = str;
 	}
 
 	while (m--)
 	{
 		string str; cin >> str;
-		cout << dogam.find(str)->second << '\n';
+		if(isdigit(str[0]))
+			cout << dogam2[stoi(str)]<< '\n';
+		else
+			cout << dogam.find(str)->second << '\n';
 	}
 
 	return 0;
