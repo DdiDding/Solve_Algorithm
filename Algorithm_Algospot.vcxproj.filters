@@ -13,7 +13,10 @@
     <ClCompile Include="Traveling Salesman Problem 1.cpp">
       <Filter>Success</Filter>
     </ClCompile>
-    <ClCompile Include="Synchronizing Clocks.cpp" />
+    <ClCompile Include="Synchronizing Clocks.cpp">
+      <Filter>Success</Filter>
+    </ClCompile>
+    <ClCompile Include="쿼드 트리 뒤집기.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
