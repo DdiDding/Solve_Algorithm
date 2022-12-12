@@ -18,6 +18,7 @@
     </ClCompile>
     <ClCompile Include="쿼드 트리 뒤집기.cpp" />
     <ClCompile Include="울타리 잘라내기.cpp" />
+    <ClCompile Include="팬미팅.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
