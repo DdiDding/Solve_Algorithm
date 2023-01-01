@@ -551,6 +551,11 @@
     <ClCompile Include="12904.cpp">
       <Filter>String</Filter>
     </ClCompile>
-    <ClCompile Include="9237.cpp" />
+    <ClCompile Include="9237.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="16435.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
