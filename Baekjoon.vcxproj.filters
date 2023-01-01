@@ -545,6 +545,11 @@
     <ClCompile Include="2775.cpp">
       <Filter>Not solved</Filter>
     </ClCompile>
-    <ClCompile Include="2847.cpp" />
+    <ClCompile Include="2847.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="12904.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
