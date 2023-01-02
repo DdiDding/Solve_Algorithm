@@ -566,5 +566,6 @@
     <ClCompile Include="1343.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
+    <ClCompile Include="10807.cpp" />
   </ItemGroup>
 </Project>
