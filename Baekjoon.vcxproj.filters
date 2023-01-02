@@ -557,6 +557,9 @@
     <ClCompile Include="16435.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="14916.cpp" />
+    <ClCompile Include="14916.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="1343.cpp" />
   </ItemGroup>
 </Project>
