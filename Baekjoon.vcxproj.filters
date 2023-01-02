@@ -560,6 +560,11 @@
     <ClCompile Include="14916.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="1343.cpp" />
+    <ClCompile Include="14487.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="1343.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
