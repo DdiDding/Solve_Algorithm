@@ -541,7 +541,6 @@
     <ClCompile Include="1620.cpp">
       <Filter>Hash</Filter>
     </ClCompile>
-    <ClCompile Include="1764.cpp" />
     <ClCompile Include="2775.cpp">
       <Filter>Not solved</Filter>
     </ClCompile>
@@ -571,6 +570,12 @@
     </ClCompile>
     <ClCompile Include="5597.cpp">
       <Filter>Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="1764.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="2941.cpp">
+      <Filter>String</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
