@@ -2,8 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="보글 게임.cpp" />
-    <ClCompile Include="ANAGRAM.cpp" />
     <ClCompile Include="소풍.cpp">
       <Filter>Failed</Filter>
     </ClCompile>
@@ -16,9 +14,16 @@
     <ClCompile Include="Synchronizing Clocks.cpp">
       <Filter>Success</Filter>
     </ClCompile>
-    <ClCompile Include="쿼드 트리 뒤집기.cpp" />
-    <ClCompile Include="울타리 잘라내기.cpp" />
     <ClCompile Include="팬미팅.cpp" />
+    <ClCompile Include="울타리 잘라내기.cpp">
+      <Filter>Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="쿼드 트리 뒤집기.cpp">
+      <Filter>Success</Filter>
+    </ClCompile>
+    <ClCompile Include="보글 게임.cpp">
+      <Filter>Failed</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
