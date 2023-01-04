@@ -577,5 +577,6 @@
     <ClCompile Include="2941.cpp">
       <Filter>String</Filter>
     </ClCompile>
+    <ClCompile Include="2747.cpp" />
   </ItemGroup>
 </Project>
