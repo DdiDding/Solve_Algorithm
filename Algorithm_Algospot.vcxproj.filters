@@ -26,7 +26,10 @@
     <ClCompile Include="팬미팅.cpp">
       <Filter>Failed</Filter>
     </ClCompile>
-    <ClCompile Include="외발 뛰기.cpp" />
+    <ClCompile Include="외발 뛰기.cpp">
+      <Filter>Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Wildcard.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
