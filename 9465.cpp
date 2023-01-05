@@ -18,7 +18,7 @@ int solve(int y, int x)
 
 	//메모리제이션
 	int & ref = dp[y][x];
-	if (ref != -1) return ref;
+	if (ref != -1) return ref; 
 
 	return ref = max(solve(!y,x - 1), solve(!y, x - 2)) + s[y][x];
 }
