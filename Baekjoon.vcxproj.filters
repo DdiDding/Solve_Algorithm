@@ -46,6 +46,9 @@
     <Filter Include="Implement">
       <UniqueIdentifier>{8ed1cc31-980c-4095-b222-015326d80e24}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Divide&amp;Conquer">
+      <UniqueIdentifier>{7d9c2888-f61c-416b-9cc5-6ed255ccbac3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute_Force\4673.cpp">
@@ -298,9 +301,6 @@
     <ClCompile Include="2295.cpp">
       <Filter>Search</Filter>
     </ClCompile>
-    <ClCompile Include="1629.cpp">
-      <Filter>Recursive</Filter>
-    </ClCompile>
     <ClCompile Include="11729.cpp">
       <Filter>Recursive</Filter>
     </ClCompile>
@@ -442,9 +442,6 @@
     <ClCompile Include="2248.cpp">
       <Filter>Not solved</Filter>
     </ClCompile>
-    <ClCompile Include="2294.cpp">
-      <Filter>Not solved</Filter>
-    </ClCompile>
     <ClCompile Include="2437.cpp">
       <Filter>Not solved</Filter>
     </ClCompile>
@@ -579,6 +576,12 @@
     </ClCompile>
     <ClCompile Include="2747.cpp">
       <Filter>DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2294.cpp">
+      <Filter>DP</Filter>
+    </ClCompile>
+    <ClCompile Include="1629.cpp">
+      <Filter>Divide&amp;Conquer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
