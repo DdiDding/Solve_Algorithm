@@ -29,7 +29,10 @@
     <ClCompile Include="외발 뛰기.cpp">
       <Filter>Failed</Filter>
     </ClCompile>
-    <ClCompile Include="Wildcard.cpp" />
+    <ClCompile Include="Wildcard.cpp">
+      <Filter>Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="삼각형 위의 최대 경로.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
