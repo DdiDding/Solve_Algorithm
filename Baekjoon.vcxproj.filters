@@ -584,7 +584,7 @@
       <Filter>Not solved</Filter>
     </ClCompile>
     <ClCompile Include="1904.cpp">
-      <Filter>Not solved</Filter>
+      <Filter>DP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
