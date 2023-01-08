@@ -1,34 +1,34 @@
-#include <bits/stdc++.h>
-using namespace std;
-typedef long long int ll;
-//dp[n] = n자리수의 이친수 개수이다.
-ll dp[91];
-
-ll solve(int n)
-{
-	//기저 사례
-	if (n == 1) return 1;
-	if (n == 2) return 1;
-	if (n == 3) return 2;
-
-	//메모리제이션
-	if (dp[n] != -1) return dp[n];
-	
-	//풀이
-	return dp[n] = solve(n - 1) + solve(n - 2);
-}
-
-int main()
-{
-	//1. Get input value & initialize dp table
-	ios::sync_with_stdio(0), cin.tie(0);
-	int n; cin >> n;
-	memset(dp, -1, sizeof(dp));
-
-	//2. solve and print
-	cout << solve(n)<<'\n';
-	return 0;
-}
+//#include <bits/stdc++.h>
+//using namespace std;
+//typedef long long int ll;
+////dp[n] = n자리수의 이친수 개수이다.
+//ll dp[91];
+//
+//ll solve(int n)
+//{
+//	//기저 사례
+//	if (n == 1) return 1;
+//	if (n == 2) return 1;
+//	if (n == 3) return 2;
+//
+//	//메모리제이션
+//	if (dp[n] != -1) return dp[n];
+//	
+//	//풀이
+//	return dp[n] = solve(n - 1) + solve(n - 2);
+//}
+//
+//int main()
+//{
+//	//1. Get input value & initialize dp table
+//	ios::sync_with_stdio(0), cin.tie(0);
+//	int n; cin >> n;
+//	memset(dp, -1, sizeof(dp));
+//
+//	//2. solve and print
+//	cout << solve(n)<<'\n';
+//	return 0;
+//}
 
 /*
 0과 1로만 이루어진 수를 이진수라한다.
