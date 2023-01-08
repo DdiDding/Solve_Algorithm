@@ -583,5 +583,8 @@
     <ClCompile Include="1629.cpp">
       <Filter>Not solved</Filter>
     </ClCompile>
+    <ClCompile Include="1904.cpp">
+      <Filter>Not solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
