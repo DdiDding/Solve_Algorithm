@@ -1,17 +1,25 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int s[505];
-
-//n번째 수가 마지막인 수열의 최대 증가 부분 수열을 반환한다.
-int solve(int n)
+//s의 최대 증가 부분 수열을 반환한다.
+int solve(const vector<int>& s)
 {
 	//기저사례
-	if (n == 1) return 1;
+	if (s.empty() == true) return 0;
 
-	//재귀 흐름
-	if (s[n - 1] < s[n]) return solve(n - 1) + 1;
-	return 1;
+	//각 자리에서 시작하여 자신 보다 큰 수를 모은 부분 수열을 만든다.
+	int ret = 0;
+	for (int i = 0; i < s.size(); ++i)
+	{
+		vector<int> t;
+		for (int j = i + 1; j < s.size(); ++j)
+		{
+			if (s[i] < s[j]) t.push_back(s[j]);
+		}
+
+		ret = max(ret, solve(t) + 1);
+	}
+	return ret;
 }
 
 int main()
@@ -22,19 +30,15 @@ int main()
 	int t; cin >> t;
 	while (t--)
 	{
+		//1. Get input value & Initialize dp table
 		int n; cin >> n;
-		for (int i = 1; i <= n; ++i)
+		vector<int> s; s.resize(n, 0);
+		for (int i = 0; i < n; ++i)
 		{
 			cin >> s[i];
 		}
-
-		int ret = 0;
-		for (int i = 0; i <= n; ++i)
-		{
-			ret = max(ret, solve(n));
-		}
-
-		cout << ret << '\n';
+		
+		cout << solve(s) << '\n';
 	}
 	return 0;
 }
@@ -45,11 +49,10 @@ int main()
 그 중 가장 긴 길이를 계산해라.
 
 점화식
-f(1) = 1
-f(2) = if( s(1) < s(2) )	true	: f(1) + 1
-							false	: 1
-f(n) = if( s(n - 1) < s(n) ) true : f(n - 1 ) + 1
-							 false: 1
+52436785
+11223453
 
 
 */
+
+//재귀
