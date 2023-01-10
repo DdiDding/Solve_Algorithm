@@ -1,18 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
 int p[10'005] = { 0, };
+int dp[10'005];
 
 //n개의 카드를 구하기 위한 최대 값
 int solve(int n)
 {
+	//기저 사례
 	if (n < 1) return p[n];
 
-	int ret = p[n];
+	//메모리제이션
+	if (dp[n] != -1) return dp[n];
+
+	dp[n] = p[n];
 	for (int i = 1; i <= n / 2; ++i)
 	{
-		ret = max(ret, solve(n - i) + solve(i));
+		dp[n] = max(dp[n], solve(n - i) + solve(i));
 	}
-	return ret;
+	return dp[n];
 }
 
 int main()
@@ -23,6 +28,7 @@ int main()
 	{
 		cin >> p[i];
 	}
+	memset(dp, -1, sizeof(dp));
 
 	cout << solve(n);
 	return 0;
