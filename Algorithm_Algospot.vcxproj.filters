@@ -35,7 +35,12 @@
     <ClCompile Include="삼각형 위의 최대 경로.cpp">
       <Filter>Success</Filter>
     </ClCompile>
-    <ClCompile Include="최대 증가 부분 수열.cpp" />
+    <ClCompile Include="최대 증가 부분 수열.cpp">
+      <Filter>Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="합친 LIS.cpp">
+      <Filter>Failed</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
