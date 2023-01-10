@@ -1,5 +1,36 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+int main()
+{
+	ios::sync_with_stdio(0), cin.tie(0);
+
+	return 0;
+}
+
+/*
+a[i] + ... + a[j] * min(a[i] ~ a[j])
+
+완탐 - 모든 부분배열구해서 최대 점수 
+
+
+3 1 6 = 10 * 1 = 10 
+4 5 2 = 11 * 2 = 11
+
+부분배열마다 맨 왼쪽, 맨 오른쪽을 가지고 있다.
+다음 만나는게 최대 값
+
+최소 값이 올라갈 경우
+
+아니면 최대 값부터?
+
+*/
+
+//분할정복
+//시간 복잡도 : O(n log n + n)
+/*
+#include <bits/stdc++.h>
+using namespace std;
 typedef long long int ll;
 ll arr[100'005];
 
@@ -56,21 +87,4 @@ int main()
 	cout << solve(0, n - 1);
 	return 0;
 }
-
-/*
-a[i] + ... + a[j] * min(a[i] ~ a[j])
-
-완탐 - 모든 부분배열구해서 최대 점수 
-
-
-3 1 6 = 10 * 1 = 10 
-4 5 2 = 11 * 2 = 11
-
-부분배열마다 맨 왼쪽, 맨 오른쪽을 가지고 있다.
-다음 만나는게 최대 값
-
-최소 값이 올라갈 경우
-
-아니면 최대 값부터?
-
 */

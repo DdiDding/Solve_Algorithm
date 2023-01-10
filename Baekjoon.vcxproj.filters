@@ -586,6 +586,8 @@
     <ClCompile Include="1904.cpp">
       <Filter>DP</Filter>
     </ClCompile>
-    <ClCompile Include="2104.cpp" />
+    <ClCompile Include="2104.cpp">
+      <Filter>Not solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
