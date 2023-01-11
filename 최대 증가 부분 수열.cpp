@@ -2,25 +2,21 @@
 using namespace std;
 
 int s[505];
-int dp[505];
+vector<int> dp;
 
-//s[n]으로 끝나는 최대증가부분 수열의 길이
-int solve(int n)
+void solve(int n)
 {
-	//기저사례
-	if (n == 0) return dp[n] = 1;
-
-	//메모리제이션
-	if (dp[n] != -1) return dp[n];
-
-	//이 이전원소중 자신보다 작은 원소의 LIS를 확인하며 값을 업데이트한다.
-	//최소 값(길이)은 1이다.
-	int ret = 1;
-	for (int i = 0; i < n; ++i)
+	for (int i = 1; i <= n; ++i)
 	{
-		if (s[i] < s[n]) ret = max(ret, (dp[i] = solve(i)) + 1);
+		if (dp.back() < s[i])
+		{
+			dp.push_back(s[i]);
+		}
+		else
+		{
+			dp[lower_bound(dp.begin(), dp.end(), s[i]) - dp.begin()] = s[i];
+		}
 	}
-	return dp[n] = ret;
 }
 
 int main()
@@ -29,37 +25,37 @@ int main()
 	cin.tie(nullptr), cout.tie(nullptr);
 
 	int t; cin >> t;
+	dp.reserve(505);
 	while (t--)
 	{
 		//1. Get input value & Initialize dp table
 		int n; cin >> n;
-		for (int i = 0; i < n; ++i)
+		for (int i = 1; i <= n; ++i)
 		{
 			cin >> s[i];
 		}
-		memset(dp, -1, sizeof(dp));
+		dp.resize(1, -1);
 
-		int ret = 0;
-		for (int i = 0; i < n; ++i)
-		{
-			ret = max(ret, solve(i));
-		}
+		solve(n);
 
-		cout << ret << '\n';
+		cout << dp.size() - 1 << '\n';
 	}
 	return 0;
 }
 
 /*
-부분 수열 (순서 변경 x)
-순 증가 = 증가 부분 수열
-그 중 가장 긴 길이를 계산해라.
+수열 S,
+메모리 dp
 
-점화식
-52436785
-11223453
+solve(int n )
 
-
+for(i = 1, s[0] 부터 s[n] 까지 탐색)
+{
+	1. dp마지막 원소보다 탐색중인 원소가 더 클때 [분기]
+	if( dp마지막 원소 < s[i] ) 
+		1-1. dp에 push_back해준다.
+		1-2. lower_bound로 들어갈 자리를 알아내서 그 인덱스에 s[i]를 넣는다.
+}
 */
 
 //종만북 재귀

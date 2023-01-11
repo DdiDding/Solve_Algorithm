@@ -41,6 +41,10 @@
     <ClCompile Include="합친 LIS.cpp">
       <Filter>Failed</Filter>
     </ClCompile>
+    <ClCompile Include="원주율 외우기.cpp">
+      <Filter>Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="QUANTIZE.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
