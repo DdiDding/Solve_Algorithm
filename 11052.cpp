@@ -12,12 +12,12 @@ int solve(int n)
 	//메모리제이션
 	if (dp[n] != -1) return dp[n];
 
-	dp[n] = p[n];
+	int ret = p[n];
 	for (int i = 1; i <= n / 2; ++i)
 	{
-		dp[n] = max(dp[n], solve(n - i) + solve(i));
+		ret = max(ret, solve(n - i) + solve(i));
 	}
-	return dp[n];
+	return ret;
 }
 
 int main()
