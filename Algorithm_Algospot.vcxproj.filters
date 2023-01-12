@@ -45,6 +45,9 @@
       <Filter>Failed</Filter>
     </ClCompile>
     <ClCompile Include="QUANTIZE.cpp" />
+    <ClCompile Include="출전 순서 정하기.cpp">
+      <Filter>Failed</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
