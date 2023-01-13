@@ -45,8 +45,10 @@ int solve(int n)//n은 인덱스
 	if (str.end() - (str.begin() + n) < 3) return MAX;
 	if (str.end() - (str.begin() + n) < 6) return GetHard(n, str.size());
 
+	//메모리제이션
+	if (dp[n] != MAX) return dp[n];
 
-	int ret = MAX;
+	int & ret = dp[n] = MAX;
 	for (int i = 3; i <= 5; ++i) //i는 길이
 	{
 		if (3 <= str.end() - (str.begin() + i))
@@ -54,7 +56,6 @@ int solve(int n)//n은 인덱스
 			ret = min(ret, GetHard(n, i) + solve(n + i));
 		}
 	}
-
 	return ret;
 }
 
@@ -68,6 +69,7 @@ int main()
 	while(t--)
 	{
 		cin >> str;
+		fill_n(dp, sizeof(dp) / sizeof(int), MAX);
 		cout << solve(0) << '\n';
 	}
 
