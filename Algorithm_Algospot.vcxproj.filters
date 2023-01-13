@@ -48,6 +48,7 @@
     <ClCompile Include="출전 순서 정하기.cpp">
       <Filter>Failed</Filter>
     </ClCompile>
+    <ClCompile Include="도시락 데우기.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
