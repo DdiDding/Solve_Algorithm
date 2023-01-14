@@ -304,9 +304,6 @@
     <ClCompile Include="11729.cpp">
       <Filter>Recursive</Filter>
     </ClCompile>
-    <ClCompile Include="1074.cpp">
-      <Filter>Recursive</Filter>
-    </ClCompile>
     <ClCompile Include="17478.cpp">
       <Filter>Recursive</Filter>
     </ClCompile>
@@ -591,6 +588,9 @@
     </ClCompile>
     <ClCompile Include="1992.cpp">
       <Filter>Divide&amp;Conquer</Filter>
+    </ClCompile>
+    <ClCompile Include="1074.cpp">
+      <Filter>Not solved</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
