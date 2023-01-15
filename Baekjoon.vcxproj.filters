@@ -592,5 +592,8 @@
     <ClCompile Include="1074.cpp">
       <Filter>Not solved</Filter>
     </ClCompile>
+    <ClCompile Include="2738.cpp">
+      <Filter>Implement</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
