@@ -51,6 +51,7 @@
     <ClCompile Include="도시락 데우기.cpp">
       <Filter>Success</Filter>
     </ClCompile>
+    <ClCompile Include="문제 순서는 난이도 순이 아닙니다.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
