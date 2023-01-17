@@ -50,13 +50,16 @@
     <ClCompile Include="도시락 데우기.cpp">
       <Filter>Success</Filter>
     </ClCompile>
-    <ClCompile Include="TILING2.cpp" />
     <ClCompile Include="QUANTIZE.cpp">
       <Filter>Failed</Filter>
     </ClCompile>
     <ClCompile Include="문제 순서는 난이도 순이 아닙니다.cpp">
       <Filter>Success</Filter>
     </ClCompile>
+    <ClCompile Include="TILING2.cpp">
+      <Filter>Success</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 합치기.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
