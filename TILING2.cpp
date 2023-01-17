@@ -1,15 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
+static const int MOD = 1000000007;
 
+int dp[102];
 int solve(int n)
 {
 	//기저 사례
+	if (n < 0) return 0;
 	if (n == 0) return 1;
 
-	int t1 = 0, t2 = 0;
-	t1 = solve(n - 1);
-	if (2 <= n) t2 = solve(n - 2);
-	return t1 + t2;
+	//메모리제이션
+	if (dp[n] != -1) return dp[n];
+
+	//결과
+	return dp[n] = (solve(n - 1) + solve(n - 2)) % MOD;
 }
 
 
@@ -22,9 +26,9 @@ int main()
 	while (t--)
 	{
 		int n; cin >> n;
+		memset(dp, -1, sizeof(dp));
 		cout << solve(n) << '\n';
 	}
-
 	return 0;
 }
 
