@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Brute_Force">
-      <UniqueIdentifier>{dd9b071d-373c-4694-89a9-079aab9ec040}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Greedy">
       <UniqueIdentifier>{ca7bed99-4716-4363-b8a7-ccda275efe89}</UniqueIdentifier>
     </Filter>
@@ -34,9 +31,6 @@
     <Filter Include="Simulation">
       <UniqueIdentifier>{79040213-4ee8-4d81-8f94-03affb1e83aa}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Back Tracking">
-      <UniqueIdentifier>{7361c046-f9c5-4d9b-b192-7f39838dafec}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Priority_queue">
       <UniqueIdentifier>{b8ad52bc-5579-4250-b14a-fecac90b94a9}</UniqueIdentifier>
     </Filter>
@@ -46,80 +40,17 @@
     <Filter Include="Divide&amp;Conquer">
       <UniqueIdentifier>{7d9c2888-f61c-416b-9cc5-6ed255ccbac3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Not solved\Implement">
+    <Filter Include="Brute_Force">
+      <UniqueIdentifier>{3b7cea3e-3f4a-4931-b16a-4d5cc484e899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implement">
       <UniqueIdentifier>{8ed1cc31-980c-4095-b222-015326d80e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back_Tracking">
+      <UniqueIdentifier>{53498a5a-a0b2-4a2e-882c-732abbfe37d3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Brute_Force\4673.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
-    <ClCompile Include="Brute_Force\1065.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
-    <ClCompile Include="Brute_Force\2798.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
-    <ClCompile Include="Brute_Force\12100.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
-    <ClCompile Include="Greedy\1026.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="Greedy\1541.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="Greedy\1789.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="Greedy\1931.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="Greedy\2217.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="Greedy\2839.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="Greedy\5585.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="Greedy\10162.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="Greedy\10610.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="Greedy\11047.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="Greedy\11399.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="Greedy\13305.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="2752.cpp">
-      <Filter>Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="2750.cpp">
-      <Filter>Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="2751.cpp">
-      <Filter>Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="1946.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="1715.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="1080.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="1439.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
     <ClCompile Include="10828.cpp">
       <Filter>Stack</Filter>
     </ClCompile>
@@ -129,73 +60,13 @@
     <ClCompile Include="1874.cpp">
       <Filter>Stack</Filter>
     </ClCompile>
-    <ClCompile Include="1202.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="2109.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="13023.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="1260.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
     <ClCompile Include="11053.cpp">
       <Filter>DP</Filter>
-    </ClCompile>
-    <ClCompile Include="12015.cpp">
-      <Filter>Greedy</Filter>
     </ClCompile>
     <ClCompile Include="2565.cpp">
       <Filter>DP</Filter>
     </ClCompile>
-    <ClCompile Include="16953.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="2178.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="Graph\24444.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="24445.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="2213.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
-    <ClCompile Include="2562.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
-    <ClCompile Include="7568.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
-    <ClCompile Include="1339.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="24479.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="24480.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="4796.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="2606.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="2667.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="1049.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="1012.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
     <ClCompile Include="1463.cpp">
       <Filter>DP</Filter>
     </ClCompile>
@@ -229,12 +100,6 @@
     <ClCompile Include="10844.cpp">
       <Filter>DP</Filter>
     </ClCompile>
-    <ClCompile Include="1697.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="3806.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
     <ClCompile Include="16194.cpp">
       <Filter>DP</Filter>
     </ClCompile>
@@ -243,12 +108,6 @@
     </ClCompile>
     <ClCompile Include="2193.cpp">
       <Filter>DP</Filter>
-    </ClCompile>
-    <ClCompile Include="7562.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="7576.cpp">
-      <Filter>Graph</Filter>
     </ClCompile>
     <ClCompile Include="1912.cpp">
       <Filter>DP</Filter>
@@ -262,12 +121,6 @@
     <ClCompile Include="1309.cpp">
       <Filter>DP</Filter>
     </ClCompile>
-    <ClCompile Include="7569.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="16928.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
     <ClCompile Include="1543.cpp">
       <Filter>String</Filter>
     </ClCompile>
@@ -277,14 +130,8 @@
     <ClCompile Include="9465.cpp">
       <Filter>DP</Filter>
     </ClCompile>
-    <ClCompile Include="2206.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
     <ClCompile Include="2156.cpp">
       <Filter>DP</Filter>
-    </ClCompile>
-    <ClCompile Include="1932.cpp">
-      <Filter>Graph</Filter>
     </ClCompile>
     <ClCompile Include="13398.cpp">
       <Filter>DP</Filter>
@@ -313,24 +160,6 @@
     <ClCompile Include="10870.cpp">
       <Filter>Recursive</Filter>
     </ClCompile>
-    <ClCompile Include="15649.cpp">
-      <Filter>Back Tracking</Filter>
-    </ClCompile>
-    <ClCompile Include="9663.cpp">
-      <Filter>Back Tracking</Filter>
-    </ClCompile>
-    <ClCompile Include="1182.cpp">
-      <Filter>Back Tracking</Filter>
-    </ClCompile>
-    <ClCompile Include="15650.cpp">
-      <Filter>Back Tracking</Filter>
-    </ClCompile>
-    <ClCompile Include="15651.cpp">
-      <Filter>Back Tracking</Filter>
-    </ClCompile>
-    <ClCompile Include="15652.cpp">
-      <Filter>Back Tracking</Filter>
-    </ClCompile>
     <ClCompile Include="10809.cpp">
       <Filter>String</Filter>
     </ClCompile>
@@ -355,23 +184,8 @@
     <ClCompile Include="12865.cpp">
       <Filter>DP</Filter>
     </ClCompile>
-    <ClCompile Include="2503.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
-    <ClCompile Include="1018.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
     <ClCompile Include="1316.cpp">
       <Filter>String</Filter>
-    </ClCompile>
-    <ClCompile Include="1436.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
-    <ClCompile Include="1449.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="17509.cpp">
-      <Filter>Greedy</Filter>
     </ClCompile>
     <ClCompile Include="2908.cpp">
       <Filter>String</Filter>
@@ -379,50 +193,32 @@
     <ClCompile Include="5622.cpp">
       <Filter>String</Filter>
     </ClCompile>
-    <ClCompile Include="2720.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
     <ClCompile Include="15596.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="1011.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="1712.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="2839.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="9012.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="5086.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="1037.cpp">
-      <Filter>Not solved\Implement</Filter>
-    </ClCompile>
-    <ClCompile Include="10448.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
-    <ClCompile Include="14888.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
-    <ClCompile Include="14501.cpp">
-      <Filter>Brute_Force</Filter>
-    </ClCompile>
-    <ClCompile Include="14502.cpp">
-      <Filter>Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="14889.cpp">
-      <Filter>Brute_Force</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="18108.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="20492.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="1560.cpp">
       <Filter>String</Filter>
@@ -467,61 +263,61 @@
       <Filter>Not solved</Filter>
     </ClCompile>
     <ClCompile Include="1546.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="2525.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="2588.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="2864.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="2884.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="2920.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="3052.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="8958.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="10818.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="10871.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="10926.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="10951.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="10952.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="11021.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="11022.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="11497.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="11654.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="25083.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="25304.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="15685.cpp">
       <Filter>Simulation</Filter>
@@ -533,34 +329,19 @@
       <Filter>Not solved</Filter>
     </ClCompile>
     <ClCompile Include="2847.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="12904.cpp">
       <Filter>String</Filter>
     </ClCompile>
-    <ClCompile Include="9237.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="16435.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="14916.cpp">
-      <Filter>Greedy</Filter>
-    </ClCompile>
     <ClCompile Include="14487.cpp">
-      <Filter>Not solved\Implement</Filter>
-    </ClCompile>
-    <ClCompile Include="1343.cpp">
-      <Filter>Greedy</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="10807.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="5597.cpp">
-      <Filter>Not solved\Implement</Filter>
-    </ClCompile>
-    <ClCompile Include="1764.cpp">
-      <Filter>Greedy</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="2941.cpp">
       <Filter>String</Filter>
@@ -590,16 +371,154 @@
       <Filter>Not solved</Filter>
     </ClCompile>
     <ClCompile Include="2738.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="2566.cpp">
-      <Filter>Not solved\Implement</Filter>
+      <Filter>Implement</Filter>
     </ClCompile>
     <ClCompile Include="25501.cpp">
       <Filter>Recursive</Filter>
     </ClCompile>
     <ClCompile Include="2447.cpp">
       <Filter>Divide&amp;Conquer</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1026.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1049.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1080.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1202.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1339.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1343.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1439.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1449.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1541.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1715.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1764.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1789.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1931.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\1946.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\2109.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\2217.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\2720.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\3806.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\4796.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\5585.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\9237.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\10162.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\10610.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\11047.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\11399.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\12015.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\13305.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\14916.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\16435.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\16953.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\17509.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy\2839.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Brute_Force\1065.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="Brute_Force\2798.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="Brute_Force\4673.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="Brute_Force\12100.cpp">
+      <Filter>Brute_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="Back_Tracking\1182.cpp">
+      <Filter>Back_Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Back_Tracking\9663.cpp">
+      <Filter>Back_Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Back_Tracking\15649.cpp">
+      <Filter>Back_Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Back_Tracking\15650.cpp">
+      <Filter>Back_Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Back_Tracking\15651.cpp">
+      <Filter>Back_Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Back_Tracking\15652.cpp">
+      <Filter>Back_Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort\2750.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort\2751.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort\2752.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\24444.cpp">
+      <Filter>Graph</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
