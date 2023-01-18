@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="1716A.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="4A.cpp">
+      <Filter>BF</Filter>
+    </ClCompile>
+    <ClCompile Include="71A.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="231A.cpp">
+      <Filter>BF</Filter>
+    </ClCompile>
+    <ClCompile Include="1A.cpp" />
+    <ClCompile Include="1714C.cpp" />
+    <ClCompile Include="1705A.cpp">
+      <Filter>Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="1428B.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="1720B.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Greedy">
+      <UniqueIdentifier>{20124fcb-5615-43da-aec8-0d5c28d1f715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BF">
+      <UniqueIdentifier>{cc15e23d-399b-4c60-a246-36846f60508e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{c3b137e5-68ca-4219-94cd-12e00c0f728a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{83d4b10e-4aa8-4328-a112-1bc460d57288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sort">
+      <UniqueIdentifier>{26daf6c3-071a-4e7d-8703-65d4d2eb4244}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
