@@ -59,7 +59,10 @@
     <ClCompile Include="TILING2.cpp">
       <Filter>Success</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 합치기.cpp" />
+    <ClCompile Include="문자열 합치기.cpp">
+      <Filter>Success</Filter>
+    </ClCompile>
+    <ClCompile Include="달팽이.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Failed">
