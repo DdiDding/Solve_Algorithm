@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Algospot\QUANTIZE.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\게임판 덮기.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\달팽이.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\보글 게임.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\소풍.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\외발 뛰기.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\울타리 잘라내기.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\원주율 외우기.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\최대 증가 부분 수열.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\출전 순서 정하기.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\팬미팅.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\합친 LIS.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\Wildcard.cpp">
+      <Filter>Algospot\Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\Synchronizing Clocks.cpp">
+      <Filter>Algospot\Success</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\TILING2.cpp">
+      <Filter>Algospot\Success</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\Traveling Salesman Problem 1.cpp">
+      <Filter>Algospot\Success</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\도시락 데우기.cpp">
+      <Filter>Algospot\Success</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\문자열 합치기.cpp">
+      <Filter>Algospot\Success</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\문제 순서는 난이도 순이 아닙니다.cpp">
+      <Filter>Algospot\Success</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\삼각형 위의 최대 경로.cpp">
+      <Filter>Algospot\Success</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\우물을 기어오르는 달팽이.cpp">
+      <Filter>Algospot\Success</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\쿼드 트리 뒤집기.cpp">
+      <Filter>Algospot\Success</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Algospot">
+      <UniqueIdentifier>{400b2bb5-8509-4b39-b9bc-4840b217f3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algospot\Success">
+      <UniqueIdentifier>{1c473d43-fa5e-4ae1-9bff-92b68ac67908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algospot\Failed">
+      <UniqueIdentifier>{1c331ef0-a8ea-4c8e-9666-0dc559c04ab7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
