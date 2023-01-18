@@ -2,163 +2,163 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="성격 유형 검사하기.cpp">
+    <ClCompile Include="Level1\[1차] 다트 게임.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="같은 숫자는 싫어.cpp">
+    <ClCompile Include="Level1\3진법 뒤집기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="내적.cpp">
+    <ClCompile Include="Level1\2016년.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="숫자 문자열과 영단어.cpp">
+    <ClCompile Include="Level1\x만큼 간격이 있는 n개의 숫자.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="신고 결과 받기.cpp">
+    <ClCompile Include="Level1\가운데 글자 가져오기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="최소직사각형.cpp">
+    <ClCompile Include="Level1\같은 숫자는 싫어.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="짝수와 홀수.cpp">
+    <ClCompile Include="Level1\나누어 떨어지는 숫자 배열.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="모의고사.cpp">
+    <ClCompile Include="Level1\나머지가 1이 되는 수 찾기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="자릿수 더하기.cpp">
+    <ClCompile Include="Level1\내적.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="약수의 합.cpp">
+    <ClCompile Include="Level1\두  정수 사이의 합.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="평균 구하기.cpp">
+    <ClCompile Include="Level1\두개 뽑아서 더하기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="신규 아이디 추천.cpp">
+    <ClCompile Include="Level1\로또의 최고 순위와 최저 순위.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="정수 제곱근 판별.cpp">
+    <ClCompile Include="Level1\모의고사.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="자연수 뒤집어 배열로 만들기.cpp">
+    <ClCompile Include="Level1\문자열 내 p와 y의 개수.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 내 p와 y의 개수.cpp">
+    <ClCompile Include="Level1\문자열 내 마음대로 정렬하기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="하샤드 수.cpp">
+    <ClCompile Include="Level1\문자열 내림차순으로 배치하기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="정수 내림차순으로 배치하기.cpp">
+    <ClCompile Include="Level1\문자열 다루기 기본.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="문자열을 정수로 바꾸기.cpp">
+    <ClCompile Include="Level1\문자열을 정수로 바꾸기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="직사각형 별찍기.cpp">
+    <ClCompile Include="Level1\부족한 금액 계산하기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 내 마음대로 정렬하기.cpp">
+    <ClCompile Include="Level1\삼총사.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="x만큼 간격이 있는 n개의 숫자.cpp">
+    <ClCompile Include="Level1\서울에서 김서방 찾기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="나머지가 1이 되는 수 찾기.cpp">
+    <ClCompile Include="Level1\성격 유형 검사하기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="콜라츠 추측.cpp">
+    <ClCompile Include="Level1\소수 만들기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="두  정수 사이의 합.cpp">
+    <ClCompile Include="Level1\소수 찾기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="서울에서 김서방 찾기.cpp">
+    <ClCompile Include="Level1\수박수박수박수박수박수.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="핸드폰 번호 가리기.cpp">
+    <ClCompile Include="Level1\숫자 문자열과 영단어.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="나누어 떨어지는 숫자 배열.cpp">
+    <ClCompile Include="Level1\시저암호.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="음양 더하기.cpp">
+    <ClCompile Include="Level1\신고 결과 받기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="수박수박수박수박수박수.cpp">
+    <ClCompile Include="Level1\신규 아이디 추천.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="가운데 글자 가져오기.cpp">
+    <ClCompile Include="Level1\실패율.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="없는 숫자 더하기.cpp">
+    <ClCompile Include="Level1\약수의 개수와 덧셈.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 내림차순으로 배치하기.cpp">
+    <ClCompile Include="Level1\약수의 합.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 다루기 기본.cpp">
+    <ClCompile Include="Level1\없는 숫자 더하기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="약수의 개수와 덧셈.cpp">
+    <ClCompile Include="Level1\예산.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="행렬의 덧셈.cpp">
+    <ClCompile Include="Level1\완주하지 못한 선수.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="부족한 금액 계산하기.cpp">
+    <ClCompile Include="Level1\음양 더하기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="최대공약수와 최소공배수.cpp">
+    <ClCompile Include="Level1\이상한 문자 만들기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="이상한 문자 만들기.cpp">
+    <ClCompile Include="Level1\자릿수 더하기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="3진법 뒤집기.cpp">
+    <ClCompile Include="Level1\자연수 뒤집어 배열로 만들기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="예산.cpp">
+    <ClCompile Include="Level1\정수 내림차순으로 배치하기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="시저암호.cpp">
+    <ClCompile Include="Level1\정수 제곱근 판별.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="두개 뽑아서 더하기.cpp">
+    <ClCompile Include="Level1\직사각형 별찍기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="2016년.cpp">
+    <ClCompile Include="Level1\짝수와 홀수.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="폰켓몬.cpp">
+    <ClCompile Include="Level1\체육복.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="소수 찾기.cpp">
+    <ClCompile Include="Level1\최대공약수와 최소공배수.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="소수 만들기.cpp">
+    <ClCompile Include="Level1\최소직사각형.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="실패율.cpp">
+    <ClCompile Include="Level1\콜라츠 추측.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="[1차] 다트 게임.cpp">
+    <ClCompile Include="Level1\키패드 누르기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="로또의 최고 순위와 최저 순위.cpp">
+    <ClCompile Include="Level1\평균 구하기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="체육복.cpp">
+    <ClCompile Include="Level1\폰켓몬.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="키패드 누르기.cpp">
+    <ClCompile Include="Level1\하샤드 수.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="삼총사.cpp">
+    <ClCompile Include="Level1\핸드폰 번호 가리기.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
-    <ClCompile Include="완주하지 못한 선수.cpp">
+    <ClCompile Include="Level1\행렬의 덧셈.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
   </ItemGroup>
