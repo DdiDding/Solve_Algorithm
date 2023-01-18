@@ -3,12 +3,12 @@ using namespace std;
 int dp[2002];
 int day, top;
 
-int solve(int n, int m)
+double solve(int n, int m)
 {
 	//장마가 끝났을때
-	if (n == day) return top <= m ? 1 : 0;
+	if (n == day) return top <= m ? 1.0 : 0.0;
 
-	return solve(n + 1, m + 2) + solve(n + 1, m + 1);
+	return 0.75 * solve(n + 1, m + 2) + 0.25 * solve(n + 1, m + 1);
 }
 
 int main()
@@ -22,8 +22,7 @@ int main()
 	{
 		memset(dp, -1, sizeof(dp));
 		cin >> top >> day;
-		cout << solve(0, 0) << endl;
-		cout << solve(0, 0) / pow<double>(2, day) << '\n';
+		cout << solve(0, 0) << '\n';
 	}
 
 	return 0;
