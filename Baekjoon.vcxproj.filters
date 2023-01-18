@@ -43,11 +43,11 @@
     <Filter Include="Hash">
       <UniqueIdentifier>{c4585e9a-bdff-4e1a-84b5-055e20447c4f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Implement">
-      <UniqueIdentifier>{8ed1cc31-980c-4095-b222-015326d80e24}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Divide&amp;Conquer">
       <UniqueIdentifier>{7d9c2888-f61c-416b-9cc5-6ed255ccbac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Not solved\Implement">
+      <UniqueIdentifier>{8ed1cc31-980c-4095-b222-015326d80e24}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -383,25 +383,25 @@
       <Filter>Greedy</Filter>
     </ClCompile>
     <ClCompile Include="15596.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="1011.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="1712.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="2839.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="9012.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="5086.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="1037.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="10448.cpp">
       <Filter>Brute_Force</Filter>
@@ -419,10 +419,10 @@
       <Filter>Brute_Force</Filter>
     </ClCompile>
     <ClCompile Include="18108.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="20492.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="1560.cpp">
       <Filter>String</Filter>
@@ -440,9 +440,6 @@
       <Filter>Not solved</Filter>
     </ClCompile>
     <ClCompile Include="2437.cpp">
-      <Filter>Not solved</Filter>
-    </ClCompile>
-    <ClCompile Include="2447.cpp">
       <Filter>Not solved</Filter>
     </ClCompile>
     <ClCompile Include="2580.cpp">
@@ -470,61 +467,61 @@
       <Filter>Not solved</Filter>
     </ClCompile>
     <ClCompile Include="1546.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="2525.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="2588.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="2864.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="2884.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="2920.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="3052.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="8958.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="10818.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="10871.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="10926.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="10951.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="10952.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="11021.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="11022.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="11497.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="11654.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="25083.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="25304.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="15685.cpp">
       <Filter>Simulation</Filter>
@@ -536,7 +533,7 @@
       <Filter>Not solved</Filter>
     </ClCompile>
     <ClCompile Include="2847.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="12904.cpp">
       <Filter>String</Filter>
@@ -551,16 +548,16 @@
       <Filter>Greedy</Filter>
     </ClCompile>
     <ClCompile Include="14487.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="1343.cpp">
       <Filter>Greedy</Filter>
     </ClCompile>
     <ClCompile Include="10807.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="5597.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="1764.cpp">
       <Filter>Greedy</Filter>
@@ -593,13 +590,16 @@
       <Filter>Not solved</Filter>
     </ClCompile>
     <ClCompile Include="2738.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="2566.cpp">
-      <Filter>Implement</Filter>
+      <Filter>Not solved\Implement</Filter>
     </ClCompile>
     <ClCompile Include="25501.cpp">
       <Filter>Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="2447.cpp">
+      <Filter>Divide&amp;Conquer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
