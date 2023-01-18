@@ -17,7 +17,7 @@ int main()
 	cin.tie(nullptr), cout.tie(nullptr);
 
 	int t; cin >> t;
-	cout << showpoint<<setprecision(10);
+	cout << showpoint << setprecision(10);
 	while (t--)
 	{
 		memset(dp, -1, sizeof(dp));
