@@ -67,6 +67,12 @@
     <ClCompile Include="Algospot\쿼드 트리 뒤집기.cpp">
       <Filter>Algospot\Success</Filter>
     </ClCompile>
+    <ClCompile Include="비대칭 타일링.cpp">
+      <Filter>Algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Algospot</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Algospot">
