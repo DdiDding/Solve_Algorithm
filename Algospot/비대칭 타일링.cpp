@@ -26,7 +26,7 @@ int main()
 			}
 			else
 			{
-				ret[i] = (dp[i - 1] - 2) + (dp[i - 2] - 1);
+				ret[i] = (dp[i - 1] - 2) + (dp[i - 2] - 1); 
 			}
 		}
 
