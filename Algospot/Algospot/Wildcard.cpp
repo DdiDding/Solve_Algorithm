@@ -6,8 +6,8 @@ int dp[101][101];
 
 //w가 s에 매칭이 되는지 bool형을 반환
 bool solve(int pw, int ps)
-{
-	int & ret = dp[pw][ps];
+{ 
+	int & ret = dp[pw][ps]; 
  	if (ret != -1) return ret;
 
 	while (pw < w.size() && ps < s.size() && (w[pw] == '?' || w[pw] == s[ps]))
