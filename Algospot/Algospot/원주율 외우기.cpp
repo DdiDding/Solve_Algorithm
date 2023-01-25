@@ -11,7 +11,7 @@ int GetHard(int s, int len)
 {
 	//난이도 1 검사
 	string std = str.substr(s, len);
-	if (std == string(std.size(), std[0])) return 1;
+	if (std == string(std.size(), std[0])) return 1; 
 
 	//난이도 2 검사
 	bool bIsArter = true;
