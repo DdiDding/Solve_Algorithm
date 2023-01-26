@@ -7,7 +7,7 @@ int main()
 {
 	int t; cin >> t;
 	while (t--)
-	{
+	{ 
 		string h, f; cin >> h >> f;
 		
 	}
