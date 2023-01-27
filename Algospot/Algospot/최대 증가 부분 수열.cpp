@@ -16,7 +16,7 @@ void solve(int n)
 		{
 			dp[lower_bound(dp.begin(), dp.end(), s[i]) - dp.begin()] = s[i];
 		}
-	}
+	} 
 }
 
 int main()
