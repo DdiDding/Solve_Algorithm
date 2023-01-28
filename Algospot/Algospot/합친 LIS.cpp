@@ -17,7 +17,7 @@ int solve(int a, int b)
 		if (maxValue < A[nextA])
 		{
 			ret = max(ret, solve(nextA, b) + 1);
-		}
+		} 
 	}
 	for (int nextB = b + 1; nextB < m; nextB++)
 	{
