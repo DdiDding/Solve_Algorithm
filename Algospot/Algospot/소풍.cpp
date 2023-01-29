@@ -15,7 +15,7 @@ void Self(const int & maxi, int cnt, int & result)
 	//모든 학생을 다 짝지었는지 확인
 	if (cnt == 0)
 	{
-		++result;
+		++result; 
 		return;
 	}
 
