@@ -18,7 +18,7 @@ int GetHard(int s, int len)
 	int temp = std[1] - std[0];
 	for (int i = 0; i < std.size() - 1 && bIsArter; ++i)
 	{
-		if (std[i] + temp != std[i + 1]) bIsArter = false;
+		if (std[i] + temp != std[i + 1]) bIsArter = false; 
 	}
 	if (bIsArter && temp * temp == 1) return 2;
 
