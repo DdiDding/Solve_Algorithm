@@ -28,7 +28,7 @@ void Count(int idx, double temp, int cnt)
 		if (check[i] == false && i != idx)
 		{
 			check[i] = true;
-			Count(i, temp + m[idx][i], cnt + 1);
+			Count(i, temp + m[idx][i], cnt + 1); 
 			check[i] = false;
 		}
 	}
