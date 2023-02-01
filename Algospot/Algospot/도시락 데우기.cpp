@@ -8,7 +8,7 @@ int main()
 	cin.tie(nullptr), cout.tie(nullptr);
 
 	int t; cin >> t;
-	while (t--)
+	while (t--) 
 	{
 		int n; cin >> n;
 		vector<pii> d; d.resize(n);
