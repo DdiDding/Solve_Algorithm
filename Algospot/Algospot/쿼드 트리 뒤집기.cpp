@@ -24,7 +24,7 @@ string Solve(string::iterator& it, int lev)
 		if (temp[i] == "x")
 		{
 			temp[i] += Solve(it, lev - 1);
-		}
+		} 
 	}
 
 	//2. 재 합성후 반환
