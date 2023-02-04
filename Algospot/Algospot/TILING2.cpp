@@ -24,7 +24,7 @@ int main()
 
 	int t; cin >> t;
 	while (t--)
-	{
+	{ 
 		int n; cin >> n;
 		memset(dp, -1, sizeof(dp));
 		cout << solve(n) << '\n';
