@@ -6,7 +6,7 @@ int day, top;
 int solve(int n, int m)
 {
 	//장마가 끝났을때
-	if (n == day) return top <= m ? 1 : 0;
+	if (n == day) return top <= m ? 1 : 0; 
 
 	return solve(n + 1, m + 2) + solve(n + 1, m + 1);
 }
