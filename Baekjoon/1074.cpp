@@ -7,7 +7,7 @@ int GetQuad(const bool & bOverY, const bool & bOverX)
 	if (bOverY == true)
 	{
 		if (bOverX == true) return 3;
-		else return 2;
+		else return 2; 
 	}
 	else
 	{
