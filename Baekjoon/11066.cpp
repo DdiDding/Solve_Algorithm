@@ -25,7 +25,7 @@ int main() {
 		for (int d = 1; d < k; ++d) {
 			//
 			for (int tx = 1; tx + d <= k; ++tx) {
-				int ty = tx + d;
+				int ty = tx + d; 
 				dp[tx][ty] = INT_MAX;
 
 				for (int mid = tx; mid < ty; ++mid)
