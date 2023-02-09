@@ -16,7 +16,7 @@ int GetQuad(const bool & bOverY, const bool & bOverX)
 	}
 }
 
-//2^n 크기의 [y][x]에 있는 번호를 출력한다.
+//2^n 크기의 [y][x]에 있는 번호를 출력한다. 
 int solve(int y, int x, int n)
 {
 	//기저 사례
