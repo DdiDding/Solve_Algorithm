@@ -22,7 +22,7 @@ main() {
 	int N; cin >> N;
 
 	vector<string> v(N);
-	for (int i = 0; i < N; i++) cin >> v[i];
+	for (int i = 0; i < N; i++) cin >> v[i]; 
 
 	vector<bool> dp(str.length() + 1, false);
 	dp[str.length()] = true;
