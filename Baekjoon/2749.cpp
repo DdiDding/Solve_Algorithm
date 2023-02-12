@@ -1,20 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
-typedef long long int lli;
 #define MOD 1'000'000
 #define MAX 1'000'000'000'000'000'000
+//1000000000000000000
+map<long long int, long long int> dp;
 
-lli dp[5] = { 0,1,1,2,3 };
-
-int solve(int n)
+long long int solve(long long int n)
 {
-	if (n < 5) return dp[n];
+	//기저사례 & 메모리제이션
+	if (dp.find(n) != dp.end())	return dp[n];
 
-	lli div = n / 2;
-	lli a = solve(div) % MOD; a = a * a % MOD;
-	lli b = 0;
-	lli c = 0;
-	lli d = 0;
+	long long int div = n / 2;
+	long long int a = solve(div) % MOD; a = a * a % MOD;
+	long long int b = 0;
+
 	//홀수면
 	if (n & 1)
 	{
@@ -23,23 +22,20 @@ int solve(int n)
 	//짝수면
 	else
 	{
-		b = solve(div) % MOD;
-		c = b * solve(div - 1) % MOD;
-		d = c * 2 % MOD;
+		b = ((solve(div) % MOD) * (solve(div - 1) % MOD) * 2 % MOD);
 	}
 
-	lli e = (a + d) % MOD;
-	return e;
+	return dp[n] = (a + b) % MOD;
 }
+
 int main()
 {
 	ios::sync_with_stdio(0), cin.tie(0);
-	lli n; cin >> n;
-/*
-	for (int i = 6; i < 1000; ++i)
-	{
-		cout << i<<"번째 : "<<solve(i) << endl;
-	}*/
+	long long int n; cin >> n;
+
+	dp[0] = 0;
+	dp[1] = 1;
+	dp[2] = 2;
 
 	cout << solve(n);
 	return 0;
@@ -56,3 +52,4 @@ int main()
 
 //10이면 5 * 5  + (5 * 4 * 2)
 //짝수는 (div) * (div) + (div *  div - 1) * 2
+

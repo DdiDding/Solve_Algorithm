@@ -532,6 +532,8 @@
     <ClCompile Include="2748.cpp">
       <Filter>DP</Filter>
     </ClCompile>
-    <ClCompile Include="2749.cpp" />
+    <ClCompile Include="2749.cpp">
+      <Filter>Not solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
