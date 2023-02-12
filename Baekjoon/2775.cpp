@@ -1,15 +1,19 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
 
-int cnt = 0;
+int dp[15][15];
+
 //a층 b호의 사람을 반환
 int solve(int a, int b)
 {
-	++cnt;
 	//기저사례
 	if (a == 0) return b;
 
-	int ret = 0;
+	//메모리제이션
+	int & ret = dp[a][b];
+	if (ret != 0) return ret;
+
 	for (int i = 1; i <= b; ++i)
 	{
 		ret += solve(a - 1, i);
@@ -26,9 +30,10 @@ int main()
 	int t; cin >> t;
 	while (t--)
 	{
+		memset(dp, 0, sizeof(dp));
 		int a, b; cin >> a >> b;
+
 		cout << solve(a, b) << '\n';
-		cout << "카운트" << cnt << '\n';
 	}
 
 	return 0;
