@@ -325,9 +325,6 @@
     <ClCompile Include="1620.cpp">
       <Filter>Hash</Filter>
     </ClCompile>
-    <ClCompile Include="2775.cpp">
-      <Filter>Not solved</Filter>
-    </ClCompile>
     <ClCompile Include="2847.cpp">
       <Filter>Implement</Filter>
     </ClCompile>
@@ -525,6 +522,18 @@
     </ClCompile>
     <ClCompile Include="25305.cpp">
       <Filter>Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="2775.cpp">
+      <Filter>DP</Filter>
+    </ClCompile>
+    <ClCompile Include="9461.cpp">
+      <Filter>DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2748.cpp">
+      <Filter>DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2749.cpp">
+      <Filter>Not solved</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
