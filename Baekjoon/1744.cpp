@@ -16,7 +16,7 @@ int main()
 {
 	//1. Get input & sorting
 	ios::sync_with_stdio(0), cin.tie(0);
-	
+	 
 	int N; cin >> N;
 	int minUnit = 0;
 	
