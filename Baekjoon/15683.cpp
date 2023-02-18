@@ -21,7 +21,7 @@ short m[8][8];
 short pre[8][4][8][8];
 
 //cctv의 종류는 one index로 +1인 6으로 선언
-short rotNum[6] = { 0, 4,2,4,4,1 };
+short rotNum[6] = { 0, 4,2,4,4,1 }; 
 //순서는 밑, 우, 상, 좌
 bool rot[6][4] = {
 	{9, 9, 9, 9},
