@@ -15,7 +15,7 @@ ll solve(int n)
 	if (dp[n] != -1) return dp[n];
 	
 	//Ç®ÀÌ
-	return dp[n] = solve(n - 1) + solve(n - 2);
+	return dp[n] = solve(n - 1) + solve(n - 2); 
 }
 
 int main()
