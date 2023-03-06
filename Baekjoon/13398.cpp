@@ -16,7 +16,7 @@ int main()
 	{
 		cin >> temp;
 		dp[i][1] = dp[i - 1][1] < 1 ? temp : dp[i - 1][1] + temp;
-		dp[i][0] = max(dp[i - 2][1], dp[i - 1][0]) + temp;
+		dp[i][0] = max(dp[i - 2][1], dp[i - 1][0]) + temp; 
 	}
 
 	sort(&(dp[1][1]) + 0, &(dp[1][0]) + ((n * 2) - 1), greater<int>());
