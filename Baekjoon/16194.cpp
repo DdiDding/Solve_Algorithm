@@ -16,7 +16,7 @@ int main()
 		cin >> dp[i];
 		for (int j = 1; j <= i / 2; ++j)
 		{
-			dp[i] = min(dp[i], dp[j] + dp[i - j]);
+			dp[i] = min(dp[i], dp[j] + dp[i - j]); 
 		}
 	}
 

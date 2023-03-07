@@ -169,9 +169,6 @@
     <ClCompile Include="1157.cpp">
       <Filter>String</Filter>
     </ClCompile>
-    <ClCompile Include="24416.cpp">
-      <Filter>DP</Filter>
-    </ClCompile>
     <ClCompile Include="13975.cpp">
       <Filter>Priority_queue</Filter>
     </ClCompile>
@@ -534,6 +531,9 @@
     </ClCompile>
     <ClCompile Include="2749.cpp">
       <Filter>Not solved</Filter>
+    </ClCompile>
+    <ClCompile Include="24416.cpp">
+      <Filter>DP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
