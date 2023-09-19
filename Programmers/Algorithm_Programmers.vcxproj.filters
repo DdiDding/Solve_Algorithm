@@ -161,10 +161,16 @@
     <ClCompile Include="Level1\행렬의 덧셈.cpp">
       <Filter>Level 1</Filter>
     </ClCompile>
+    <ClCompile Include="Level2\최댓값과 최솟값.cpp">
+      <Filter>Level 2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
       <UniqueIdentifier>{da24dbed-9df2-4fb0-81ea-fd09feb73a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level 2">
+      <UniqueIdentifier>{9accb3bd-2ff1-4294-bb71-6f60b23b56dd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

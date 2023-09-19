@@ -1,3 +1,4 @@
+//문제 해석
 /*
 그 날, 많은 남자들이 포럼의 아바타에 아름다운 여자 사진을 이용했다.
 그 사진은 언뜻 보기에 성별에 대해 말하기 꽤 어렵다.
@@ -15,32 +16,14 @@ hero는 아주 슬펐고 다시 사랑하기 힘든상태가 되었다.
 
 당신에게 유저의 닉네임을 나타내는 String이 주어집니다,
 hero의 방법을 사용해 hero를 도와 이 유저들의 성별을 밝혀주세요
-*/
 
 
-/*
 Input	:첫 줄에 공백없는 String이 들어있습니다.(영어 소문자로만 이루어짐)
 		 글자 수는 100자 이하 입니다.
 Output	:여자일 경우 "CHAT WITH HER!", 남자일 경우 "IGNORE HIM!" 을 출력하세요
 */
-#include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
 
-using namespace std;
-
-int main()
-{
-	string s; cin >> s;
-
-	sort(s.begin(), s.end());
-	s.erase(unique(s.begin(), s.end()), s.end());
-
-	cout << (s.size() & 1 ? "IGNORE HIM!" : "CHAT WITH HER!");
-}
-
-//첫번째 풀이
+//첫 번째 풀이
 /*
 int main()
 {
@@ -64,5 +47,25 @@ int main()
 	//3. Get result
 	cout << (num & 0x1 ? "IGNORE HIM!" : "CHAT WITH HER!");
 	return 0;
+}
+*/
+
+//두 번째 풀이
+/*
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main()
+{
+	string s; cin >> s;
+
+	sort(s.begin(), s.end());
+	s.erase(unique(s.begin(), s.end()), s.end());
+
+	cout << (s.size() & 1 ? "IGNORE HIM!" : "CHAT WITH HER!");
 }
 */
