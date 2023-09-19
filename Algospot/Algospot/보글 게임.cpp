@@ -1,10 +1,10 @@
+//TODO:DP로 풀어보기! 맞으면 Success로 옮기자!
+
+//완전탐색 성공!
+/*
 #include <bits/stdc++.h>
 using namespace std;
 
-/*
-5 * 5의 격자판,
-8방향으로 인접한 글자들을 이어서 단어를 찾아내는 문제
-*/
 
 //게임판
 char board[5][5] = {
@@ -15,13 +15,9 @@ char board[5][5] = {
 	{'X','O','Q','R','S'}
 };
 
-string word = "PRETTY";
-
 //계산하기 쉽게 하기 위한 8방향 배열
 const int nx[8] = { 0,1,1,1,0,-1,-1,-1 };
 const int ny[8] = { 1,1,0,-1,-1,-1,0,1 };
-
-
 
 //글자를 찾았는지 못찾았는지 반환
 bool Solve(int x, int y, int idx)
@@ -71,6 +67,9 @@ int main()
 	//true면 찾음, false면 못찾음
 }
 
+*/
+
+//이건 성공전에 풀이해본거
 /*
 const int dx[8] = { 0,1,1,1,0,-1,-1,-1 };
 const int dy[8] = { 1,1,0,-1,-1,-1,0,1 };

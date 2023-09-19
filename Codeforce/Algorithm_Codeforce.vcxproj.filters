@@ -26,6 +26,9 @@
       <Filter>Sort</Filter>
     </ClCompile>
     <ClCompile Include="158A.cpp" />
+    <ClCompile Include="236A.cpp">
+      <Filter>BF</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Greedy">
