@@ -1,6 +1,77 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+5 * 5의 격자판,
+8방향으로 인접한 글자들을 이어서 단어를 찾아내는 문제
+*/
+
+//게임판
+char board[5][5] = {
+	{'U','R','L','P','M'},
+	{'X','P','R','E','T'},
+	{'G','I','A','E','T'},
+	{'X','T','N','Z','Y'},
+	{'X','O','Q','R','S'}
+};
+
+string word = "PRETTY";
+
+//계산하기 쉽게 하기 위한 8방향 배열
+const int nx[8] = { 0,1,1,1,0,-1,-1,-1 };
+const int ny[8] = { 1,1,0,-1,-1,-1,0,1 };
+
+
+
+//글자를 찾았는지 못찾았는지 반환
+bool Solve(int x, int y, int idx)
+{
+	//기저사례 : 모두 다 찾았을 때
+	if (idx == word.size()) return true;
+
+	//재귀의 능력 : 현재 좌표에서 8방향을 확인해 글자 찾기
+	for (int i = 0; i < 8; ++i)
+	{
+		///TODO:여기에 범위 벗어난 예외 처리 해야함
+		if (board[x + nx[i]][y + ny[i]] == word[idx])
+		{
+			//찾았다면 다음 글자 찾기
+			if (Solve(x + nx[i], y + ny[i], idx + 1) == true) return true;
+		}
+	}
+
+	return false;
+}
+
+int main()
+{
+	//테스트 케이스의 수
+	for (int t = 0; t < 5; ++t)
+	{
+		cin >> word;
+
+		//첫번째 글자는 for문으로 찾을거임,
+		bool bNotFound = true;
+		for (int i = 0; i < 5 && bNotFound; ++i)
+		{
+			for (int j = 0; j < 5 && bNotFound; ++j)
+			{
+				//찾게되면 그 글자의 좌표를 재귀에 넣고 반환값 받아오기
+				if (board[i][j] == word[0])
+				{
+					if (Solve(i, j, 1) == true) bNotFound = false;
+				}
+			}
+		}
+
+		if (bNotFound == false) cout << word << "를 찾았다!\n\n";
+		else cout << word << "를 못 찾았다..\n\n";
+	}
+	
+	//true면 찾음, false면 못찾음
+}
+
+/*
 const int dx[8] = { 0,1,1,1,0,-1,-1,-1 };
 const int dy[8] = { 1,1,0,-1,-1,-1,0,1 };
 
@@ -77,6 +148,7 @@ int main()
 	return 0;
 }
 
+/*
 /*
 5 * 5 게임판
 
