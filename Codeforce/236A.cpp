@@ -25,10 +25,23 @@ Output	:여자일 경우 "CHAT WITH HER!", 남자일 경우 "IGNORE HIM!" 을 출력하세요
 */
 #include <iostream>
 #include <string>
+#include <vector>
+#include <algorithm>
+
 using namespace std;
 
+int main()
+{
+	string s; cin >> s;
 
+	sort(s.begin(), s.end());
+	s.erase(unique(s.begin(), s.end()), s.end());
 
+	cout << (s.size() & 1 ? "IGNORE HIM!" : "CHAT WITH HER!");
+}
+
+//첫번째 풀이
+/*
 int main()
 {
 	ios::sync_with_stdio(0), cin.tie(0);
@@ -52,4 +65,4 @@ int main()
 	cout << (num & 0x1 ? "IGNORE HIM!" : "CHAT WITH HER!");
 	return 0;
 }
-
+*/
