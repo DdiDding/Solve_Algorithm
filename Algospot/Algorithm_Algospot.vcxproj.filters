@@ -13,9 +13,6 @@
     <ClCompile Include="Algospot\보글 게임.cpp">
       <Filter>Algospot\Failed</Filter>
     </ClCompile>
-    <ClCompile Include="Algospot\소풍.cpp">
-      <Filter>Algospot\Failed</Filter>
-    </ClCompile>
     <ClCompile Include="Algospot\외발 뛰기.cpp">
       <Filter>Algospot\Failed</Filter>
     </ClCompile>
@@ -72,6 +69,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Algospot</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\소풍.cpp">
+      <Filter>Algospot\Success</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
