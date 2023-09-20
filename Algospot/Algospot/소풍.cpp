@@ -1,15 +1,108 @@
 #include <iostream>
-#include <string.h>
-#include <set>
+#include <utility>
+#include <vector>
+#include <string.h> //memset 함수
 using namespace std;
+typedef pair<int, int> pii;
+
+
+//재귀함수 성공
+/*
+/////////////////////////////////////////////////////////////////////
+//초기 값 설정
+/////////////////////////////////////////////////////////////////////
+//학생 수, 커플 수
+int cntStudent;
+int cntCouples;
+
+//친구관계 저장 벡터
+vector<pii> couples;
+vector<pii> pickCouple;
+
+//골라진 사람 저장 배열
+bool picked[12];
+
+//정답
+int result;
+
+/////////////////////////////////////////////////////////////////////
+//재귀 함수
+/////////////////////////////////////////////////////////////////////
+void Solve(int idx)
+{
+	//기저사례 : 모든 커플을 골랐을 때
+	if (pickCouple.size() == cntStudent / 2)
+	{
+		++result;
+		return;
+	}
+
+	//재귀의 능력 : idx 부터, 선택된 커플을 제외한 커플을 선택하기
+	//1. 모든 친구관계를 차례대로 순회한다.
+	for (int i = idx; i < couples.size(); ++i)
+	{
+
+		//2. 탐색하는 커플이 모두 선택된적이 없다면 선택한다.
+		if (picked[couples[i].first] == false && picked[couples[i].second] == false)
+		{
+			pickCouple.push_back(pii(couples[i].first, couples[i].second));
+			picked[couples[i].first] = true;
+			picked[couples[i].second] = true;
+
+			//3. 다음 커플 선택을 위한 재귀 호출
+			Solve(i + 1);
+
+			//4. 다시 원래대로 돌아가기
+			pickCouple.pop_back();
+			picked[couples[i].first] = false;
+			picked[couples[i].second] = false;
+		}
+
+	}
+
+	//3. 모두 탐색해도 없으면 종료
+	return;
+}
+
+int main()
+{
+	//0. 테스트 케이스 반복
+	int t; cin >> t;
+	while (t--)
+	{
+		//1. 입력 값 저장 & 초기 값 초기화
+		cin >> cntStudent >> cntCouples;
+		memset(picked, 0, sizeof(picked));
+
+		result = 0;
+
+		couples.clear();
+		pickCouple.clear();
+		for (int i = 0; i < cntCouples; ++i)
+		{
+			int x, y; cin >> x >> y;
+			couples.push_back(pii(x, y));
+		}
+
+		//2. 재귀 실행
+		Solve(0);
+
+		//3. 정답 출력
+		cout << result << endl;
+	}
+}
+*/
+
+//예전에 푼 틀린 풀이
+/*
 
 set<int> friends[11];
 bool check[11];
 
-/* start - 찾으려는 학생
- * maxi - 총 학생 수
- * cnt - 짝을 지어야 하는 수, 짝을 지을때마다 감소하여 최종 0이 된다.
- */
+start - 찾으려는 학생
+maxi - 총 학생 수
+cnt - 짝을 지어야 하는 수, 짝을 지을때마다 감소하여 최종 0이 된다.
+
 void Self(const int & maxi, int cnt, int & result)
 {
 	//모든 학생을 다 짝지었는지 확인
@@ -87,6 +180,8 @@ int main()
 
 	return 0;
 }
+*/
+
 /*
 소풍을 간다.
 학생을 두명씩 짝짓는다.
@@ -117,36 +212,36 @@ set?
 
 */
 //
-int n;
-bool areFriends[10][10];
-
-int Counting(bool taken[10])
-{
-	//가장 빠른 번호를 찾는다.
-	bool first = -1;
-	for (int i = 0; i < n; ++i)
-	{
-		if (taken[i] == false)
-		{
-			first = i;
-			break;
-		}
-	}
-
-	//기저 사례 : 모든 학생이 짝을 찾았으면 한 가지 방법을 찾았으니 종료한다.
-	if (first == -1) return 1;
-
-	int ret = 0;
-	//짝지을 학생을 결정하기
-	for (int second = first + 1; second < n; ++second)
-	{
-		if (taken[second] == false && areFriends[first][second])
-		{
-			taken[first] = taken[second] = true;
-			ret += Counting(taken);
-			taken[first] = taken[second] = false;
-		}
-	}
-	return ret;
-}
+//int n;
+//bool areFriends[10][10];
+//
+//int Counting(bool taken[10])
+//{
+//	//가장 빠른 번호를 찾는다.
+//	bool first = -1;
+//	for (int i = 0; i < n; ++i)
+//	{
+//		if (taken[i] == false)
+//		{
+//			first = i;
+//			break;
+//		}
+//	}
+//
+//	//기저 사례 : 모든 학생이 짝을 찾았으면 한 가지 방법을 찾았으니 종료한다.
+//	if (first == -1) return 1;
+//
+//	int ret = 0;
+//	//짝지을 학생을 결정하기
+//	for (int second = first + 1; second < n; ++second)
+//	{
+//		if (taken[second] == false && areFriends[first][second])
+//		{
+//			taken[first] = taken[second] = true;
+//			ret += Counting(taken);
+//			taken[first] = taken[second] = false;
+//		}
+//	}
+//	return ret;
+//}
 //이중 반복문처럼 보이는데 사실은 처음부터끝까지 반복하는것과 다름없다.
