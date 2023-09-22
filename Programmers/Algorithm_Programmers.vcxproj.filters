@@ -164,6 +164,7 @@
     <ClCompile Include="Level2\최댓값과 최솟값.cpp">
       <Filter>Level 2</Filter>
     </ClCompile>
+    <ClCompile Include="최소값 만들기.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
