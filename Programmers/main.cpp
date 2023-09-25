@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-	cout << noshowpoint << 100.0 << "\n" << 1.12<<endl<<endl;
-	cout << showpoint << 100.0 <<"\n" << 1.12 << endl << endl;
+	int a = 0, b = 3;
 
+	cout << a << b;
 	return 0;
 }
