@@ -165,6 +165,9 @@
       <Filter>Level 2</Filter>
     </ClCompile>
     <ClCompile Include="최소값 만들기.cpp" />
+    <ClCompile Include="JadenCase 문자열 만들기.cpp">
+      <Filter>Level 2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level 1">
