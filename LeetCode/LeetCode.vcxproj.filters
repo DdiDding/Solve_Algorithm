@@ -13,5 +13,11 @@
     <ClCompile Include="17680. Merge Strings Alternately.cpp">
       <Filter>Succeed</Filter>
     </ClCompile>
+    <ClCompile Include="316. Remove Duplicate Letters.cpp">
+      <Filter>Failed</Filter>
+    </ClCompile>
+    <ClCompile Include="9. Palindrome Number.cpp">
+      <Filter>Failed</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
